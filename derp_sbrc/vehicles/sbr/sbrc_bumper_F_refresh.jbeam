@@ -14,11 +14,11 @@
     "flexbodies": [
          ["mesh", "[group]:", "nonFlexMaterials"],
          ["sbrc_bumper_F_refresh", ["sbr_bumper_F"]],
-         ["sbrc_logo_refresh", ["sbrc_bumper_F"], [], {"pos":{"x":0.0, "y":0.4, "z":0.0}}],
+         ["sbrc_logo_refresh", ["sbr_bumper_F"]],
          {"deformGroup":"runninglight_R_break", "deformMaterialBase":"sbr_lights", "deformMaterialDamaged":"sbr_lights_dmg"},
-         ["sbrc_runninglight_R_refresh", ["sbrc_bumper_F"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound2", "deformVolume":0.2}],
+         ["sbrc_runninglight_R_refresh", ["sbr_bumper_F"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound2", "deformVolume":0.2}],
          {"deformGroup":"runninglight_L_break", "deformMaterialBase":"sbr_lights", "deformMaterialDamaged":"sbr_lights_dmg"},
-         ["sbrc_runninglight_L_refresh", ["sbrc_bumper_F"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound1", "deformVolume":0.2}],
+         ["sbrc_runninglight_L_refresh", ["sbr_bumper_F"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound1", "deformVolume":0.2}],
          {"deformGroup":""},
     ],
     "props": [
