@@ -8,13 +8,13 @@
     "slotType" : "sbr_bumper_F",
     "slots": [
         ["type", "default", "description"],
-        ["sbr_licenseplate_F","", "Front License Plate", {"nodeOffset":{"x":0.0, "y":0.073, "z":-0.01}}],
+        ["sbr_licenseplate_F","", "Front License Plate", {"nodeOffset":{"x":0.0, "y":-0.0947, "z":0.0}}],
         ["sbr_lip_F", "", "Front Lip"],
     ],
     "flexbodies": [
          ["mesh", "[group]:", "nonFlexMaterials"],
          ["sbrc_bumper_F_refresh", ["sbr_bumper_F"]],
-         ["sbrc_logo_refresh", ["sbrc_bumper_F"]],
+         ["sbrc_logo_refresh", ["sbrc_bumper_F"], [], {"pos":{"x":0.0, "y":0.4, "z":0.0}}],
          {"deformGroup":"runninglight_R_break", "deformMaterialBase":"sbr_lights", "deformMaterialDamaged":"sbr_lights_dmg"},
          ["sbrc_runninglight_R_refresh", ["sbrc_bumper_F"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound2", "deformVolume":0.2}],
          {"deformGroup":"runninglight_L_break", "deformMaterialBase":"sbr_lights", "deformMaterialDamaged":"sbr_lights_dmg"},
