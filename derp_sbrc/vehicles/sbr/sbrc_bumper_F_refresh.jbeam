@@ -8,7 +8,7 @@
     "slotType" : "sbr_bumper_F",
     "slots": [
         ["type", "default", "description"],
-        ["sbr_licenseplate_F","", "Front License Plate"],
+        ["sbr_licenseplate_F","", "Front License Plate", {"nodeOffset":{"x":0.0, "y":0.073, "z":-0.01}}],
         ["sbr_lip_F", "", "Front Lip"],
     ],
     "flexbodies": [
