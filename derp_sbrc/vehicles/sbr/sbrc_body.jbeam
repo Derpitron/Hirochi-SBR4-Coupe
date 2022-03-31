@@ -144,7 +144,7 @@
         ["turnsignal", "sbr_signalstalk",   "f1l","f1r","f6l",        {"x":0, "y":0, "z":180},    {"x":0, "y":-13, "z":-8},  {"x":0, "y":0, "z":0}, -1, 1, 0, 1],
         //wiper stalk
         ["wipers",     "sbr_wiperstalk",    "f1l","f1r","f6l",        {"x":0, "y":0, "z":180},    {"x":0, "y":0, "z":0},     {"x":0, "y":0, "z":0}, -1, 1, 0, 1],
-     ],
+    ],
      "nodes": [
          ["id", "posX", "posY", "posZ"],
          {"frictionCoef":0.5},
