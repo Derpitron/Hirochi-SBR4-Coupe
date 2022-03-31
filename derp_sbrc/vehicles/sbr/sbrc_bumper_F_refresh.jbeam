@@ -9,7 +9,7 @@
     "slots": [
         ["type", "default", "description"],
         ["sbr_licenseplate_F","", "Front License Plate", {"nodeOffset":{"x":0.0, "y":-0.0947, "z":0.0}}],
-        ["sbr_lip_F", "", "Front Lip", {"nodeOffset":{"x":0.0, "y":-0.087, "z":0.0}}],
+        ["sbr_lip_F", "", "Front Lip"],
     ],
     "flexbodies": [
          ["mesh", "[group]:", "nonFlexMaterials"],
