@@ -18,8 +18,8 @@
         ["sbr_bumperbar_R","sbr_bumperbar_R", "Rear Bumper Support"],
         ["sbr_fenderflare_R","", "Rear Fender Flares"],
         ["sbr_windshield","sbr_windshield", "Windshield"],
-        ["sbrc_quarterglass_R","sbrc_quarterglass_R", "Coupe Rear Right Quarter Glass"],
-        ["sbrc_quarterglass_L","sbrc_quarterglass_L", "Coupe Rear Left Quarter Glass"],
+        ["sbrc_quarterglass_R","sbrc_quarterglass_R", "Rear Right Quarter Glass"],
+        ["sbrc_quarterglass_L","sbrc_quarterglass_L", "Rear Left Quarter Glass"],
         ["sbr_enginelid","sbr_enginelid", "Engine Lid"],
         ["sbr_fender_R","sbr_fender_R", "Front Right Fender"],
         ["sbr_fender_L","sbr_fender_L", "Front Left Fender"],
@@ -31,7 +31,7 @@
         ["sbr_door_L","sbr_door_L", "Left Door"],
 
         ["sbr_hood","sbr_hood", "Hood"],
-        ["sbrc_tailgate","sbrc_tailgate", "Coupe Tailgate"],
+        ["sbrc_tailgate","sbrc_tailgate", "Tailgate"],
         ["sbr_bumper_F","sbr_bumper_F", "Front Bumper"],
         ["sbr_bumper_R","sbr_bumper_R", "Rear Bumper"],
         //engine
@@ -50,7 +50,7 @@
         ["soundscape_horn", "soundscape_horn_7", "Horn"],
 
         //rollcage
-        ["sbrc_rollcage","", "Coupe Roll Cage"],
+        ["sbrc_rollcage","", "Roll Cage"],
         ["sbr_seat_FR","sbr_seat_FR", "Passenger Seat"],
         ["sbr_seat_FL","sbr_seat_FL", "Driver Seat"],
         ["sbr_seats_R","sbr_seats_R", "Rear Seats"],

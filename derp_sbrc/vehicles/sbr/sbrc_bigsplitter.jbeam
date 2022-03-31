@@ -5,7 +5,7 @@
         "name":"Refreshed Nomi GTRX Front Splitter",
         "value":1200,
     },
-    "slotType" : "sbr_lip_F",
+    "slotType" : "sbrc_lip_F",
     "flexbodies": [
          ["mesh", "[group]:", "nonFlexMaterials"],
          ["bigsplitter_01a", ["sbr_splitter"],[],{"pos":{"x":0,"y":0.056,"z":0.075},"scale":{"x":1.032,"y":1,"z":1},"rot":{"x":2,"y":0,"z":0}}],
