@@ -8,9 +8,9 @@
     "slotType" : "sbrc_lip_F",
     "flexbodies": [
          ["mesh", "[group]:", "nonFlexMaterials"],
-         ["bigsplitter_01a", ["sbr_splitter"],[],{"pos":{"x":0,"y":0.056,"z":0.075},"scale":{"x":1.032,"y":1,"z":1},"rot":{"x":2,"y":0,"z":0}}],
-         ["bigsplitter_01a_strut_R", ["sbr_splitter","sbr_bumper_F"],[],{"pos":{"x":0,"y":-0.10,"z":-0.64},"rot":{"x":-16,"y":0,"z":0}}],
-         ["bigsplitter_01a_strut_L", ["sbr_splitter","sbr_bumper_F"],[],{"pos":{"x":0,"y":-0.10,"z":-0.64},"rot":{"x":-16,"y":0,"z":0}}],
+         ["bigsplitter_01a_refreshed", ["sbr_splitter"]],
+         ["bigsplitter_01a_strut_R_refreshed", ["sbr_splitter","sbr_bumper_F"]],
+         ["bigsplitter_01a_strut_L_refreshed", ["sbr_splitter","sbr_bumper_F"]],
     ],
     "variables": [
         ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
