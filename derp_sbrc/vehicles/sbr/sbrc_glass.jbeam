@@ -3,7 +3,7 @@
     "information":{
         "authors":"Derpitron",
         "name":"Coupe Rear Right Quarter Glass",
-        "value":300,
+        "value":500,
     },
     "slotType" : "sbrc_quarterglass_R",
     "flexbodies": [
@@ -75,7 +75,7 @@
     "information":{
         "authors":"Derpitron",
         "name":"Coupe Rear Left Quarter Glass",
-        "value":300,
+        "value":500,
     },
     "slotType" : "sbrc_quarterglass_L",
     "flexbodies": [

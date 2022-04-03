@@ -1,17 +1,17 @@
 {
-"sbr6_wing_synsol": {
+"sbrc_gt3_wing": {
     "information":{
-        "authors":"BeamNG",
-        "name":"SBR6 Wing",
-        "value":700,
-    }
+        "authors":"PRC0",
+        "name":"GT3 Wing",
+        "value":650,
+    },
     "slotType" : "sbr_spoiler",
     "flexbodies": [
          ["mesh", "[group]:", "nonFlexMaterials"],
-         ["sbr6_wing_a", ["sbr_wing_a"],[],{"pos":{"x":0,"y":0,"z":-0.0}}],
-         ["sbr6_wing_b", ["sbr_wing_b"],[],{"pos":{"x":0,"y":0,"z":-0.0}}],
-         ["sbr6_wing_c", ["sbr_wing_c"],[],{"pos":{"x":0,"y":0,"z":-0.0}}],
-         ["sbr6_wing_d", ["sbr_tailgate"],[],{"pos":{"x":0,"y":0,"z":-0.0}}],
+         ["sbrc_gt3_wing_a", ["sbr_wing_a"],[],{"pos":{"x":0,"y":0,"z":-0.0}}],
+         ["sbrc_gt3_wing_b", ["sbr_wing_b"],[],{"pos":{"x":0,"y":0,"z":-0.0}}],
+         ["sbrc_gt3_wing_c", ["sbr_wing_c"],[],{"pos":{"x":0,"y":0,"z":-0.0}}],
+         ["sbrc_gt3_wing_d", ["sbr_tailgate"],[],{"pos":{"x":0,"y":0,"z":-0.0}}],
 
          ["sbr_spoiler", ["sbr_tailgate"],[],{"pos":{"x":0,"y":0.0,"z":0.0}}],
     ],
@@ -21,56 +21,56 @@
          {"nodeMaterial":"|NM_PLASTIC"},
          {"frictionCoef":0.5},
          {"group":"sbr_wing_b"},
-         {"collision":true}
+         {"collision":true},
          {"nodeWeight":0.48},
          {"selfCollision":true},
          //left wing support lower
-         ["sp1l", 0.42910, 1.91000, 0.83000],
-         ["sp2l", 0.42910, 2.08000, 0.76000],
+         ["sp1l", 0.35153, 1.91000, 0.83000],
+         ["sp2l", 0.35153, 2.03019, 0.77007],
 
          //left wing support upper
-         ["sp3l", 0.24276, 2.05000, 0.98058],
-         ["sp4l", 0.24276, 2.25537, 1.05029],
+         ["sp3l", 0.35153, 2.05000, 0.98058],
+         ["sp4l", 0.35153, 2.27502, 1.05029],
 
          {"group":"sbr_wing_c"},
          //right wing support lower
-         ["sp1r", -0.42910, 1.91000, 0.83000],
-         ["sp2r", -0.42910, 2.08000, 0.76000],
+         ["sp1r", -0.35153, 1.91000, 0.83000],
+         ["sp2r", -0.35153, 2.03019, 0.77007],
 
          //right wing support upper
-         ["sp3r", -0.24276, 2.05000, 0.98058],
-         ["sp4r", -0.24276, 2.25537, 1.05029],
+         ["sp3r", -0.35153, 2.05000, 0.98058],
+         ["sp4r", -0.35153, 2.27502, 1.05029],
 
          //wing
          {"nodeWeight":0.3},
          {"group":"sbr_wing_a"},
-         ["wing1rr", -0.70400, 1.96000, 0.99058],
-         ["wing1r", -0.29616, 1.96000, 0.99058],
-         ["wing1", 0.00000, 1.96000, 0.99058],
-         ["wing1l", 0.29616, 1.96000, 0.99058],
-         ["wing1ll", 0.70400, 1.96000, 0.99058],
+         ["wing1rr", -0.77157, 2.06927, 1.00042],
+         ["wing1r", -0.29616, 2.06927, 1.00042],
+         ["wing1", 0.00000, 2.06927, 1.00042],
+         ["wing1l", 0.29616, 2.06927, 1.00042],
+         ["wing1ll", 0.77157, 2.06927, 1.00042],
 
-         ["wing2ll2", 0.70400, 2.22654, 1.16418{"group":"","selfCollision":false,"collision":false}],
-         ["wing2ll", 0.70400, 2.22654, 1.16418],
-         ["wing2l", 0.29131, 2.22654, 1.16418],
-         ["wing2", 0.00000, 2.22654, 1.16418],
-         ["wing2r", -0.29131, 2.22654, 1.16418],
-         ["wing2rr", -0.70400, 2.22654, 1.16418],
-         ["wing2rr2", -0.70400, 2.22654, 1.16418{"group":"","selfCollision":false,"collision":false}],
+         ["wing2ll2", 0.77157, 2.31548, 1.13425{"group":"","selfCollision":false,"collision":false}],
+         ["wing2ll", 0.77157, 2.31548, 1.13425],
+         ["wing2l", 0.29131, 2.31548, 1.13425],
+         ["wing2", 0.00000, 2.31548, 1.13425],
+         ["wing2r", -0.29131, 2.31548, 1.13425],
+         ["wing2rr", -0.77157, 2.31548, 1.13425],
+         ["wing2rr2", -0.77157, 2.31548, 1.13425{"group":"","selfCollision":false,"collision":false}],
 
-         ["wing3rr2", -0.70400, 1.96000, 1.10440{"group":"","selfCollision":false,"collision":false}],
-         ["wing3rr", -0.70400, 1.96000, 1.10440],
-         ["wing3ll", 0.70400, 1.96000, 1.10440],
-         ["wing3ll2", 0.70400, 1.96000, 1.10440{"group":"","selfCollision":false,"collision":false}],
+         ["wing3rr2", -0.77157, 2.06927, 1.10425{"group":"","selfCollision":false,"collision":false}],
+         ["wing3rr", -0.77157, 2.06927, 1.10425],
+         ["wing3ll", 0.77157, 2.06927, 1.10425],
+         ["wing3ll2", 0.77157, 2.06927, 1.10425{"group":"","selfCollision":false,"collision":false}],
 
-         ["wing4rr", -0.70400, 2.22654, 1.10036],
-         ["wing4ll", 0.70400, 2.22654, 1.10036],
+         ["wing4rr", -0.70400, 2.31548, 1.07043],
+         ["wing4ll", 0.77157, 2.31548, 1.00349],
 
-         {"collision":false}
+         {"collision":false},
          {"selfCollision":false},
          {"nodeWeight":0.35},
          {"group":""},
-         ["wing0", 0.00000, 2.18000, 0.88029],
+         ["wing0", 0.00000, 2.26894, 0.85036],
          ["sp0", 0.00000, 1.85000, 0.60000],
          {"group":""},
     ],
@@ -364,7 +364,7 @@
     ],
     "triangles": [
         ["id1:","id2:","id3:"],
-        {"dragCoef":60}
+        {"dragCoef":60},
         {"groundModel":"plastic"},
         ["wing1ll","wing2ll","wing1l",{"liftCoef":180, "stallAngle":0.4}],
         ["wing2ll","wing2l","wing1l",{"liftCoef":180, "stallAngle":0.4}],
@@ -379,14 +379,14 @@
         ["wing1r","wing2rr","wing1rr",{"liftCoef":180, "stallAngle":0.4}],
 
         //side
-        {"dragCoef":10}
+        {"dragCoef":10},
         ["wing2ll2","wing3ll2","wing1ll"],
         ["wing2ll2","wing1ll","wing4ll"],
         ["wing2rr2","wing1rr","wing3rr2"],
         ["wing2rr2","wing4rr","wing1rr"],
 
         //supports
-        {"dragCoef":5}
+        {"dragCoef":5},
         ["sp3l", "sp1l", "sp2l"],
         ["sp2l", "sp4l", "sp3l"],
 
