@@ -1,0 +1,47 @@
+{
+  "0-100 km/h":4.8,
+  "0-100 mph":10.5,
+  "0-200 km/h":16.5,
+  "0-60 mph":4.6,
+  "100-0 km/h":34.7,
+  "100-200 km/h":11.8,
+  "60-0 mph":105.4,
+  "60-100 mph":5.9,
+  "BoundingBox":[
+    [
+      -0.67,
+      -1.11,
+      -0.187
+    ],
+    [
+      1.33,
+      3.08,
+      1.07
+    ]
+  ],
+  "Braking G":1.134,
+  "Config Type":"Factory",
+  "Configuration":"Coupe RWD S (DCT)",
+  "Description":"The Coupe S is equipped with a turbocharged 2.0 liter engine, sport suspension, and 18 inch wheels, wrapped up in a limited edition coupe body",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"Turbo",
+  "Off-Road Score":27,
+  "Performance Class":"7",
+  "Population":4000,
+  "Power":300,
+  "PowerPeakRPM":"6250 - 7000",
+  "Propulsion":"ICE",
+  "Top Speed":75.5452007,
+  "Torque":350,
+  "TorquePeakRPM":"4500 - 6050",
+  "Transmission":"DCT",
+  "Value":58500,
+  "Weight":1425,
+  "Weight/Power":4.75,
+  "Years":{
+    "max":2022,
+    "min":2021
+  },
+  "defaultPaintName1":"Mica"
+}

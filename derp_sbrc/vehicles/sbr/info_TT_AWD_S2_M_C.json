@@ -1,0 +1,48 @@
+{
+  "0-100 km/h":3.9,
+  "0-100 mph":8.9,
+  "0-200 km/h":13.4,
+  "0-300 km/h":47,
+  "0-60 mph":3.7,
+  "100-0 km/h":33.3,
+  "100-200 km/h":9.5,
+  "60-0 mph":100.9,
+  "60-100 mph":5.2,
+  "BoundingBox":[
+    [
+      -0.67,
+      -1.11,
+      -0.187
+    ],
+    [
+      1.33,
+      3.08,
+      1.07
+    ]
+  ],
+  "Braking G":1.18,
+  "Config Type":"Factory",
+  "Configuration":"Coupe AWD TT S2 (M)",
+  "Description":"Armed with twin turbochargers and a leaner body, the Coupe S2 is incredibly fast",
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"Turbo",
+  "Off-Road Score":27,
+  "Performance Class":"12",
+  "Population":200,
+  "Power":454,
+  "PowerPeakRPM":"5800 - 6900",
+  "Propulsion":"ICE",
+  "Top Speed":85.2946885,
+  "Torque":575,
+  "TorquePeakRPM":"4050 - 5500",
+  "Transmission":"Manual",
+  "Value":88000,
+  "Weight":1450,
+  "Weight/Power":3.1938326,
+  "Years":{
+    "max":2022,
+    "min":2021
+  },
+  "defaultPaintName1":"Verdant"
+}

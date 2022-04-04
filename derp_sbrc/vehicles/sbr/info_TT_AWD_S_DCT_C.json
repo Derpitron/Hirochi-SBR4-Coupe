@@ -1,0 +1,47 @@
+{
+  "0-100 km/h":4.1,
+  "0-100 mph":8.8,
+  "0-200 km/h":13.8,
+  "0-60 mph":3.9,
+  "100-0 km/h":34.1,
+  "100-200 km/h":9.7,
+  "60-0 mph":103.3,
+  "60-100 mph":5,
+  "BoundingBox":[
+    [
+      -0.67,
+      -1.11,
+      -0.187
+    ],
+    [
+      1.33,
+      3.08,
+      1.07
+    ]
+  ],
+  "Braking G":1.155,
+  "Config Type":"Factory",
+  "Configuration":"Coupe AWD TT S (DCT)",
+  "Description":"The Coupe TT S is equipped with a powerful 2.5 liter twin turbo F4 engine, sport suspension, and 18 inch wheels, wrapped up in a limited edition coupe body",
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"Turbo",
+  "Off-Road Score":27,
+  "Performance Class":"10",
+  "Population":1000,
+  "Power":350,
+  "PowerPeakRPM":"5950 - 7000",
+  "Propulsion":"ICE",
+  "Top Speed":76.1167351,
+  "Torque":420,
+  "TorquePeakRPM":"4400 - 6100",
+  "Transmission":"DCT",
+  "Value":78500,
+  "Weight":1455,
+  "Weight/Power":4.15714286,
+  "Years":{
+    "max":2022,
+    "min":2021
+  },
+  "defaultPaintName1":"Ember"
+}

@@ -1,0 +1,47 @@
+{
+  "0-100 km/h":4.6,
+  "0-100 mph":10.4,
+  "0-200 km/h":16.8,
+  "0-60 mph":4.4,
+  "100-0 km/h":34.7,
+  "100-200 km/h":12.2,
+  "60-0 mph":105.6,
+  "60-100 mph":6,
+  "BoundingBox":[
+    [
+      -0.67,
+      -1.11,
+      -0.187
+    ],
+    [
+      1.33,
+      3.08,
+      1.07
+    ]
+  ],
+  "Braking G":1.132,
+  "Config Type":"Factory",
+  "Configuration":"Coupe AWD S (DCT)",
+  "Description":"The Coupe S is equipped with a turbocharged 2.0 liter engine, sport suspension, and 18 inch wheels, wrapped up in a limited edition coupe body",
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"Turbo",
+  "Off-Road Score":27,
+  "Performance Class":"7",
+  "Population":3500,
+  "Power":300,
+  "PowerPeakRPM":"6250 - 7000",
+  "Propulsion":"ICE",
+  "Top Speed":74.7301357,
+  "Torque":350,
+  "TorquePeakRPM":"4500 - 6050",
+  "Transmission":"DCT",
+  "Value":65500,
+  "Weight":1450,
+  "Weight/Power":4.83333333,
+  "Years":{
+    "max":2022,
+    "min":2021
+  },
+  "defaultPaintName1":"Marine"
+}
