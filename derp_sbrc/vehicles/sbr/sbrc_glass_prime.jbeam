@@ -213,7 +213,7 @@
             {"group":""},
     ],
 },
-"sbrc_doorglass_L": {
+"sbrc_doorglass_L_prime": {
     "information":{
         "authors":"Derpitron",
         "name":"Coupe Left Door Glass",
@@ -223,9 +223,9 @@
     "flexbodies": [
         ["mesh", "[group]:", "nonFlexMaterials"],
         {"deformGroup":"doorglass_L_break", "deformMaterialBase":"sbr_glass", "deformMaterialDamaged":"sbr_glass_dmg"},
-        ["sbrc_doorglass_L", ["sbr_door_L"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound8", "deformVolume":0.7}],
+        ["sbrc_doorglass_L_prime", ["sbr_door_L"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound8", "deformVolume":0.7}],
         {"deformGroup":"doorglass_L_break", "deformMaterialBase":"sbr_glass_int", "deformMaterialDamaged":"sbr_glass_dmg"},
-        ["sbrc_doorglass_L_int", ["sbr_door_L"]],
+        ["sbrc_doorglass_L_int_prime", ["sbr_door_L"]],
         {"deformGroup":""},
     ],
     "nodes": [
@@ -348,13 +348,13 @@
           {"deformLimitExpansion":1.1},
     ],
 },
-"sbrc_windshield": {
+"sbrc_windshield_prime": {
     "information":{
         "authors":"Derpitron",
         "name":"Coupe Windshield",
         "value":850,
     },
-    "slotType" : "sbrc_windshield",
+    "slotType" : "sbrc_windshield_prime",
     "flexbodies": [
          ["mesh", "[group]:", "nonFlexMaterials"],
          //glass

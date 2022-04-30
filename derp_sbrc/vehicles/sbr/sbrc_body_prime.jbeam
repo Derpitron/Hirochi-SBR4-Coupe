@@ -1,8 +1,8 @@
 {
-"sbrc_body": {
+"sbrc_body_prime": {
     "information":{
         "authors":"Derpitron",
-        "name":"Coupe Unibody",
+        "name":"Prime Coupe Unibody",
         "value":30000,
     },
     "slotType" : "sbr_body",
@@ -17,9 +17,9 @@
         ["sbr_bumperbar_F","sbr_bumperbar_F", "Front Bumper Support"],
         ["sbr_bumperbar_R","sbr_bumperbar_R", "Rear Bumper Support"],
         ["sbr_fenderflare_R","", "Rear Fender Flares"],
-        ["sbrc_windshield","sbrc_windshield", "Windshield"],
-        ["sbrc_quarterglass_R","sbrc_quarterglass_R", "Rear Right Quarter Glass"],
-        ["sbrc_quarterglass_L","sbrc_quarterglass_L", "Rear Left Quarter Glass"],
+        ["sbrc_windshield_prime","sbrc_windshield_prime", "Windshield"],
+        ["sbrc_quarterglass_R_prime","sbrc_quarterglass_R_prime", "Rear Right Quarter Glass"],
+        ["sbrc_quarterglass_L_prime","sbrc_quarterglass_L+prime", "Rear Left Quarter Glass"],
         ["sbr_enginelid","sbr_enginelid", "Engine Lid"],
         ["sbr_fender_R","sbr_fender_R", "Front Right Fender"],
         ["sbr_fender_L","sbr_fender_L", "Front Left Fender"],
@@ -31,7 +31,7 @@
         ["sbr_door_L","sbr_door_L", "Left Door"],
 
         ["sbr_hood","sbr_hood", "Hood"],
-        ["sbrc_tailgate","sbrc_tailgate", "Tailgate"],
+        ["sbrc_tailgate_prime","sbrc_tailgate_prime", "Tailgate"],
         ["sbr_bumper_F","sbr_bumper_F", "Front Bumper"],
         ["sbr_bumper_R","sbr_bumper_R", "Rear Bumper"],
         //engine
@@ -117,9 +117,9 @@
          ["sbr_brakelines", ["sbr_body","sbr_hub_F_b"]],
          //interior
          ["sbr_dash", ["sbr_dash"]],
-         ["sbr_intmirror", ["sbr_roof"]],
-         ["sbrc_sunvisor", ["sbr_roof"]],
-         ["sbrc_rearint", ["sbr_rearint"]],
+         ["sbrc_intmirror_prime", ["sbr_roof"]],
+         ["sbrc_sunvisor_prime", ["sbr_roof"]],
+         ["sbr_rearint", ["sbr_rearint"]],
 
          //["sbr_gauges", ["sbr_dash"]],
          //["sbr_screen", ["sbr_dash"]],
