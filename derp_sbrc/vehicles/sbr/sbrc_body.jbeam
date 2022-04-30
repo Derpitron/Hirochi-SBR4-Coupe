@@ -118,8 +118,8 @@
          //interior
          ["sbr_dash", ["sbr_dash"]],
          ["sbr_intmirror", ["sbr_roof"]],
-         ["sbr_sunvisor", ["sbr_roof"]],
-         ["sbr_rearint", ["sbr_rearint"]],
+         ["sbrc_sunvisor", ["sbr_roof"]],
+         ["sbrc_rearint", ["sbr_rearint"]],
 
          //["sbr_gauges", ["sbr_dash"]],
          //["sbr_screen", ["sbr_dash"]],
