@@ -17,7 +17,7 @@
         ["sbr_bumperbar_F","sbr_bumperbar_F", "Front Bumper Support"],
         ["sbr_bumperbar_R","sbr_bumperbar_R", "Rear Bumper Support"],
         ["sbr_fenderflare_R","", "Rear Fender Flares"],
-        ["sbr_windshield","sbr_windshield", "Windshield"],
+        ["sbrc_windshield","sbrc_windshield", "Windshield"],
         ["sbrc_quarterglass_R","sbrc_quarterglass_R", "Rear Right Quarter Glass"],
         ["sbrc_quarterglass_L","sbrc_quarterglass_L", "Rear Left Quarter Glass"],
         ["sbr_enginelid","sbr_enginelid", "Engine Lid"],
