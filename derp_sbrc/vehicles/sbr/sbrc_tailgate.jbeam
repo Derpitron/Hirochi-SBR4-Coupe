@@ -17,7 +17,7 @@
         ["type", "default", "description"],
         ["sbr_spoiler","sbr_spoiler", "Spoiler"],
         ["sbr_lettering_tailgate","sbr_lettering_base", "Tailgate Lettering"],
-        ["sbrc_tailgateglass_prime","sbrc_tailgateglass_prime", "Prime Coupe Tailgate Glass"],
+        ["sbrc_tailgateglass_prime","sbrc_tailgateglass_prime", "Tailgate Glass"],
         ["sbr_tailgate_panel","", "Tailgate Panel"],
     ],
     "props": [
