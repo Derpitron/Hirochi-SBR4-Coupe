@@ -791,4 +791,97 @@
           {"deformLimitExpansion":1.1},
     ],
 },
+"sbrc_windshield": {
+    "information":{
+        "authors":"Derpitron",
+        "name":"Coupe Windshield",
+        "value":850,
+    },
+    "slotType" : "sbrc_windshield",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         //glass
+         {"deformGroup":"windshield_break", "deformMaterialBase":"sbr_glass", "deformMaterialDamaged":"sbr_windshield_dmg"},
+         ["sbrc_windshield", ["sbr_windshield"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>impact_glass_windscreen_01", "deformVolume":0.7}],
+         {"deformGroup":"windshield_break", "deformMaterialBase":"sbr_glass_int", "deformMaterialDamaged":"sbr_glass_int"},
+         ["sbrc_windshield_int", ["sbr_windshield"]],
+
+         {"deformGroup":"windshield_break", "deformMaterialBase":"glass_invisible", "deformMaterialDamaged":"glass_mirror"},
+         ["sbrc_windshield_dmg", ["sbr_windshield"]],
+         {"deformGroup":""},
+         ["sbr_wipers", ["sbr_body","sbr_roof","sbr_engine_bay"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //windshield 12kg, rear windshield 10kg, sedan window 3kg, coupe window 4kg
+         //1421kg
+         {"selfCollision":true},
+         {"collision":true},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_GLASS"},
+         {"nodeWeight":1.6},
+         {"group":"sbr_windshield"},
+         //windshield node
+         ["wi1", 0.00000, -0.68000, 0.94001, {"group":["sbr_windshield","gps"]}],
+         {"nodeMaterial":"|NM_METAL"},
+
+         //--ADD WEIGHT--
+         //windshield
+         {"group":"sbr_body"},
+         //a pillar
+         {"nodeWeight":2.4},
+         ["p1r", -0.61000, -0.40000, 0.98000,{"group":["sbr_roof","sbr_windshield"]}],
+         ["p1l", 0.61000, -0.40000, 0.98000,{"group":["sbr_roof","sbr_windshield"]}],
+         //roof
+         {"group":"sbr_roof"},
+         {"nodeWeight":3.0},
+         ["rf1r", -0.57000, -0.16000, 1.13004,{"group":["sbr_roof","sbr_windshield"]}],
+         ["rf1", 0.00000, -0.32000, 1.15004,{"nodeWeight":2.5,"group":["sbr_roof","sbr_windshield"]}],
+         ["rf1l", 0.57000, -0.16000, 1.13004,{"group":["sbr_roof","sbr_windshield"]}],
+         //firewall
+         {"nodeWeight":6.0},
+         ["f6rr", -0.76000, -0.78000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
+         ["f6r", -0.33000, -0.92000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
+         ["f6l", 0.33000, -0.92000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
+         ["f6ll", 0.76000, -0.78000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
+         {"group":""},
+    ],
+
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          //windshield node
+          {"disableMeshBreaking":true,"disableTriangleBreaking":true},
+          {"beamSpring":1348050,"beamDamp":50},
+          {"beamDeform":6750,"beamStrength":"FLT_MAX"},
+          {"deformGroup":"windshield_break", "deformationTriggerRatio":0.08},
+          {"deformLimitExpansion":""},
+          ["wi1","rf1r"],
+          ["wi1","rf1"],
+          ["wi1","rf1l"],
+
+          ["wi1","p1r"],
+          ["wi1","p1l"],
+          ["wi1","p2r"],
+          ["wi1","p2l"],
+          ["wi1","p2rr"],
+          ["wi1","p2ll"],
+
+          ["wi1","f6r"],
+          ["wi1","f6l"],
+
+          ["wi1","f6rr"],
+          ["wi1","f6ll"],
+
+          {"beamDeform":6750,"beamStrength":11250},
+          ["f6r","rf1"],
+          ["f6l","rf1"],
+
+          ["p1r","p1l"],
+          {"breakGroup":""},
+          {"deformGroup":""},
+          {"deformLimitExpansion":1.1},
+          {"disableMeshBreaking":false,"disableTriangleBreaking":false},
+    ],
+},
 }
