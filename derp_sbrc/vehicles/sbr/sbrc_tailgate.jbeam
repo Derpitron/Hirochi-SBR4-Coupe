@@ -318,10 +318,10 @@
     ],
     "slots": [
         ["type", "default", "description"],
-        ["sbr_spoiler","sbr_spoiler", "Spoiler", {"nodeOffset":{"x":0.0, "y":-0.026, "z":0.01}}],
-        ["sbr_lettering_tailgate","sbr_lettering_base", "Tailgate Lettering", {"nodeOffset":{"x":0.0, "y":-0.026, "z":0.01}}],
+        ["sbr_spoiler","sbr_spoiler", "Spoiler", {"nodeOffset":{"x":0.0, "y":-0.0708, "z":0.01}}],
+        ["sbr_lettering_tailgate","sbr_lettering_base", "Tailgate Lettering", {"nodeOffset":{"x":0.0, "y":-0.0708, "z":0.01}}],
         ["sbrc_tailgateglass","sbrc_tailgateglass", "Coupe Tailgate Glass"],
-        ["sbr_tailgate_panel","", "Tailgate Panel", {"nodeOffset":{"x":0.0, "y":-0.026, "z":0.01}}],
+        ["sbr_tailgate_panel","", "Tailgate Panel", {"nodeOffset":{"x":0.0, "y":-0.0708, "z":0.01}}],
     ],
     "props": [
         ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],

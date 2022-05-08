@@ -8,7 +8,7 @@
     "slotType" : "sbr_bumper_R",
     "slots": [
         ["type", "default", "description"],
-        ["sbr_licenseplate_R","sbr_licenseplate_R", "Rear License Plate", {"nodeOffset":{"x":0.0, "y":-0.026, "z":0.01}}],
+        ["sbr_licenseplate_R","sbr_licenseplate_R", "Rear License Plate", {"nodeOffset":{"x":0.0, "y":-0.0708, "z":0.01}}],
       ],
     "flexbodies": [
          ["mesh", "[group]:", "nonFlexMaterials"],
