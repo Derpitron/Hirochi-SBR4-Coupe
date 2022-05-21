@@ -2441,8 +2441,8 @@
         ["sbr_fender_L","sbr_fender_L", "Front Left Fender"],
         ["sbr_headlight_R","sbr_headlight_R", "Right Headlight"],
         ["sbr_headlight_L","sbr_headlight_L", "Left Headlight"],
-        ["sbr_taillight_R","sbr_taillight_R", "Right Taillight", {"nodeOffset":{"x":0.0, "y":-0.0708, "z":0.01}}],
-        ["sbr_taillight_L","sbr_taillight_L", "Left Taillight", {"nodeOffset":{"x":0.0, "y":-0.0708, "z":0.01}}],
+        ["sbr_taillight_R","sbr_taillight_R", "Right Taillight", {"nodeOffset":{"x":0.0, "y":-0.03, "z":0.01}}],
+        ["sbr_taillight_L","sbr_taillight_L", "Left Taillight", {"nodeOffset":{"x":0.0, "y":-0.03, "z":0.01}}],
         ["sbr_door_R","sbr_door_R", "Right Door"],
         ["sbr_door_L","sbr_door_L", "Left Door"],
 
