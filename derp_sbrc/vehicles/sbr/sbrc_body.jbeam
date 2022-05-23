@@ -2814,11 +2814,11 @@
     
              //a pillar
              {"nodeWeight":1.2},
-             ["p1r", -0.61000, -0.40000, 0.98000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
-             ["p1l", 0.61000, -0.40000, 0.98000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+             ["p1r", -0.61000, -0.46195, 0.98000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+             ["p1l", 0.61000, -0.46195, 0.98000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
              {"group":""},
-             ["p2r", -0.67000, -0.30000, 0.98000],
-             ["p2l", 0.67000, -0.30000, 0.98000],
+             ["p2r", -0.67000, -0.36195, 0.98000],
+             ["p2l", 0.67000, -0.36195, 0.98000],
              ["p2rr", -0.58000, -0.28000, 0.94000, {"collision":false,"selfCollision":false}],
              ["p2ll", 0.58000, -0.28000, 0.94000, {"collision":false,"selfCollision":false}],
     

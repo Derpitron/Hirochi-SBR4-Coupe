@@ -451,7 +451,7 @@
          {"collision":false},
          {"nodeWeight":6.9},
          {"group":"sbr_door_L"},
-         ["d14l"-0.46, 0.17, 0.52],
+         ["d14l",-0.46, 0.17, 0.52],
          {"group":""},
     ],
 },
