@@ -1,15 +1,15 @@
 {
-	"sbrc_wheel_03b_18x9_F": {
+	"sbrc_wheel_03b_18x8_F": {
 		"information":{
 			"authors":"Derpitron",
-			"name":"18x9 Hirochi Tandem Front Wheels",
+			"name":"18x8 Hirochi Tandem Front Wheels",
 			"value":1050,
 		},
 		"slotType" : "wheel_F_5",
 	
 		"slots": [
 			["type", "default", "description"],
-			["tire_F_18x9","tire_F_245_40_18_sport", "Front Tires"],
+			["tire_F_18x8","tire_F_235_40_18_sport", "Front Tires"],
 		],
 		"flexbodies": [
 			["mesh", "[group]:", "nonFlexMaterials"],

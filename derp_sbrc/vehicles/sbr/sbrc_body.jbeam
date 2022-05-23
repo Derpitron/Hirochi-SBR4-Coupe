@@ -2441,8 +2441,8 @@
         ["sbr_fender_L","sbr_fender_L", "Front Left Fender"],
         ["sbr_headlight_R","sbr_headlight_R", "Right Headlight"],
         ["sbr_headlight_L","sbr_headlight_L", "Left Headlight"],
-        ["sbr_taillight_R","sbr_taillight_R", "Right Taillight", {"nodeOffset":{"x":0.0, "y":-0.03, "z":0.01}}],
-        ["sbr_taillight_L","sbr_taillight_L", "Left Taillight", {"nodeOffset":{"x":0.0, "y":-0.03, "z":0.01}}],
+        ["sbr_taillight_R","sbr_taillight_R", "Right Taillight", {"nodeOffset":{"x":0.0, "y":-0.0679, "z":0.01165}}],
+        ["sbr_taillight_L","sbr_taillight_L", "Left Taillight", {"nodeOffset":{"x":0.0, "y":-0.0679, "z":0.01165}}],
         ["sbr_door_R","sbr_door_R", "Right Door"],
         ["sbr_door_L","sbr_door_L", "Left Door"],
 
@@ -2533,8 +2533,8 @@
          ["sbr_brakelines", ["sbr_body","sbr_hub_F_b"]],
          //interior
          ["sbr_dash", ["sbr_dash"]],
-         ["sbr_intmirror", ["sbr_roof"]],
-         ["sbr_sunvisor", ["sbr_roof"]],
+         ["sbrc_intmirror", ["sbr_roof"]],
+         ["sbrc_sunvisor", ["sbr_roof"]],
          ["sbr_rearint", ["sbr_rearint"]],
 
          //["sbr_gauges", ["sbr_dash"]],
