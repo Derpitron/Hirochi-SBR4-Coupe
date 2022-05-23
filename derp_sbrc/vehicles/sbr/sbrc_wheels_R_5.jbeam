@@ -1,15 +1,15 @@
 {
-	"sbrc_wheel_03b_18x8_R": {
+	"sbrc_wheel_03b_18x9_R": {
 		"information":{
 			"authors":"Derpitron",
-			"name":"18x8 Hirochi Tandem Rear Wheels",
+			"name":"18x9 Hirochi Tandem Rear Wheels",
 			"value":1050,
 		},
 		"slotType" : "wheel_R_5",
 	
 		"slots": [
 			["type", "default", "description"],
-			["tire_R_18x8","tire_R_235_40_18_sport", "Rear Tires"],
+			["tire_R_18x9","tire_R_245_40_18_sport", "Rear Tires"],
 		],
 		"flexbodies": [
 			["mesh", "[group]:", "nonFlexMaterials"],
