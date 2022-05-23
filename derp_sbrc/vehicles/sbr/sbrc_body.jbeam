@@ -145,291 +145,291 @@
         //wiper stalk
         ["wipers",     "sbr_wiperstalk",    "f1l","f1r","f6l",        {"x":0, "y":0, "z":180},    {"x":0, "y":0, "z":0},     {"x":0, "y":0, "z":0}, -1, 1, 0, 1],
     ],
-     "nodes": [
-         ["id", "posX", "posY", "posZ"],
-         {"frictionCoef":0.5},
-         {"nodeMaterial":"|NM_METAL"},
-         {"selfCollision":true},
-         {"collision":true},
-         //floor
-         {"nodeWeight":7.2},
-         {"group":"sbr_body"},
-         ["f1rr", -0.82000, -0.85000, 0.14000, {"group":["sbr_body","sbr_seats"]}],
-         {"chemEnergy":1000,"burnRate":0.52,"flashPoint":300,"specHeat":0.8,"smokePoint":150,"selfIgnitionCoef":false},
-         ["f1r", -0.33000, -0.92000, 0.14000,{"group":["sbr_body","sbr_seats","sbr_subframe_F",]}],
-         ["f1l", 0.33000, -0.92000, 0.14000,{"group":["sbr_body","sbr_seats","sbr_subframe_F"]}],
-         {"chemEnergy":false,"burnRate":false,"flashPoint":false,"specHeat":false,"smokePoint":false,"selfIgnitionCoef":false},
-         ["f1ll", 0.82000, -0.85000, 0.14000, {"group":["sbr_body","sbr_seats"]}],
+    "nodes": [
+        ["id", "posX", "posY", "posZ"],
+        {"frictionCoef":0.5},
+        {"nodeMaterial":"|NM_METAL"},
+        {"selfCollision":true},
+        {"collision":true},
+        //floor
+        {"nodeWeight":7.2},
+        {"group":"sbr_body"},
+        ["f1rr", -0.82000, -0.85000, 0.14000, {"group":["sbr_body","sbr_seats"]}],
+        {"chemEnergy":1000,"burnRate":0.52,"flashPoint":300,"specHeat":0.8,"smokePoint":150,"selfIgnitionCoef":false},
+        ["f1r", -0.33000, -0.92000, 0.14000,{"group":["sbr_body","sbr_seats","sbr_subframe_F",]}],
+        ["f1l", 0.33000, -0.92000, 0.14000,{"group":["sbr_body","sbr_seats","sbr_subframe_F"]}],
+        {"chemEnergy":false,"burnRate":false,"flashPoint":false,"specHeat":false,"smokePoint":false,"selfIgnitionCoef":false},
+        ["f1ll", 0.82000, -0.85000, 0.14000, {"group":["sbr_body","sbr_seats"]}],
 
-         ["f2rr", -0.82000, -0.11000, 0.14000, {"group":["sbr_body","sbr_seats"]}],
-         {"chemEnergy":1000,"burnRate":0.52,"flashPoint":300,"specHeat":0.8,"smokePoint":150,"selfIgnitionCoef":false},
-         ["f2r", -0.33000, -0.11000, 0.14000, {"group":["sbr_body","sbr_seats"]}],
-         ["f2l", 0.33000, -0.11000, 0.14000, {"group":["sbr_body","sbr_seats"]}],
-         {"chemEnergy":false,"burnRate":false,"flashPoint":false,"specHeat":false,"smokePoint":false,"selfIgnitionCoef":false},
-         ["f2ll", 0.82000, -0.11000, 0.14000, {"group":["sbr_body","sbr_seats"]}],
+        ["f2rr", -0.82000, -0.11000, 0.11340, {"group":["sbr_body","sbr_seats"]}],
+        {"chemEnergy":1000,"burnRate":0.52,"flashPoint":300,"specHeat":0.8,"smokePoint":150,"selfIgnitionCoef":false},
+        ["f2r", -0.33000, -0.11000, 0.14000, {"group":["sbr_body","sbr_seats"]}],
+        ["f2l", 0.33000, -0.11000, 0.14000, {"group":["sbr_body","sbr_seats"]}],
+        {"chemEnergy":false,"burnRate":false,"flashPoint":false,"specHeat":false,"smokePoint":false,"selfIgnitionCoef":false},
+        ["f2ll", 0.82000, -0.11000, 0.14000, {"group":["sbr_body","sbr_seats"]}],
 
-         ["f3rr", -0.82000, 0.46000, 0.14000,{"group":["sbr_body","sbr_seats","sbr_rearint"]}],
-         {"chemEnergy":1000,"burnRate":0.52,"flashPoint":300,"specHeat":0.8,"smokePoint":150,"selfIgnitionCoef":false},
-         ["f3r", -0.33000, 0.46000, 0.14000,{"group":["sbr_body","sbr_seats","sbr_rearint","sbr_subframe_R"]}],
-         ["f3l", 0.33000, 0.46000, 0.14000,{"group":["sbr_body","sbr_seats","sbr_rearint","sbr_subframe_R"]}],
-         {"chemEnergy":false,"burnRate":false,"flashPoint":false,"specHeat":false,"smokePoint":false,"selfIgnitionCoef":false},
-         ["f3ll", 0.82000, 0.46000, 0.14000,{"group":["sbr_body","sbr_seats","sbr_rearint"]}],
+        ["f3rr", -0.82000, 0.46000, 0.11340,{"group":["sbr_body","sbr_seats","sbr_rearint"]}],
+        {"chemEnergy":1000,"burnRate":0.52,"flashPoint":300,"specHeat":0.8,"smokePoint":150,"selfIgnitionCoef":false},
+        ["f3r", -0.33000, 0.46000, 0.14000,{"group":["sbr_body","sbr_seats","sbr_rearint","sbr_subframe_R"]}],
+        ["f3l", 0.33000, 0.46000, 0.14000,{"group":["sbr_body","sbr_seats","sbr_rearint","sbr_subframe_R"]}],
+        {"chemEnergy":false,"burnRate":false,"flashPoint":false,"specHeat":false,"smokePoint":false,"selfIgnitionCoef":false},
+        ["f3ll", 0.82000, 0.46000, 0.14000,{"group":["sbr_body","sbr_seats","sbr_rearint"]}],
 
-         ["f4rr", -0.84000, 0.88000, 0.14000,{"group":["sbr_body","sbr_rearint"]}],
-         {"chemEnergy":1000,"burnRate":0.52,"flashPoint":300,"specHeat":0.8,"smokePoint":150,"selfIgnitionCoef":false},
-         ["f4r", -0.33000, 0.88000, 0.14000,{"group":["sbr_body","sbr_rearint","sbr_subframe_R"]}],
-         ["f4l", 0.33000, 0.88000, 0.14000,{"group":["sbr_body","sbr_rearint","sbr_subframe_R"]}],
-         {"chemEnergy":false,"burnRate":false,"flashPoint":false,"specHeat":false,"smokePoint":false,"selfIgnitionCoef":false},
-         ["f4ll", 0.84000, 0.88000, 0.14000,{"group":["sbr_body","sbr_rearint"]}],
+        ["f4rr", -0.84000, 0.88000, 0.14000,{"group":["sbr_body","sbr_rearint"]}],
+        {"chemEnergy":1000,"burnRate":0.52,"flashPoint":300,"specHeat":0.8,"smokePoint":150,"selfIgnitionCoef":false},
+        ["f4r", -0.33000, 0.88000, 0.14000,{"group":["sbr_body","sbr_rearint","sbr_subframe_R"]}],
+        ["f4l", 0.33000, 0.88000, 0.14000,{"group":["sbr_body","sbr_rearint","sbr_subframe_R"]}],
+        {"chemEnergy":false,"burnRate":false,"flashPoint":false,"specHeat":false,"smokePoint":false,"selfIgnitionCoef":false},
+        ["f4ll", 0.84000, 0.88000, 0.14000,{"group":["sbr_body","sbr_rearint"]}],
 
-         //firewall
-         {"nodeWeight":6.8},
-         ["f5rr", -0.82000, -0.85000, 0.47000, {"group":["sbr_body","gps","sbr_dash"]}],
-         {"collision":false},
-         {"selfCollision":false},
-         ["f5r", -0.33000, -0.92000, 0.47000, {"group":["sbr_body","gps","sbr_dash"]}],
-         ["f5l", 0.33000, -0.92000, 0.47000, {"group":["sbr_body","gps","sbr_dash"]}],
-         {"collision":true},
-         {"selfCollision":true},
-         ["f5ll", 0.82000, -0.85000, 0.47000, {"group":["sbr_body","gps","sbr_dash"]}],
+        //firewall
+        {"nodeWeight":6.8},
+        ["f5rr", -0.82000, -0.85000, 0.47000, {"group":["sbr_body","gps","sbr_dash"]}],
+        {"collision":false},
+        {"selfCollision":false},
+        ["f5r", -0.33000, -0.92000, 0.47000, {"group":["sbr_body","gps","sbr_dash"]}],
+        ["f5l", 0.33000, -0.92000, 0.47000, {"group":["sbr_body","gps","sbr_dash"]}],
+        {"collision":true},
+        {"selfCollision":true},
+        ["f5ll", 0.82000, -0.85000, 0.47000, {"group":["sbr_body","gps","sbr_dash"]}],
 
-         {"nodeWeight":4.8},
-         ["f6rr", -0.76000, -0.78000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
-         ["f6r", -0.33000, -0.92000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
-         ["f6l", 0.33000, -0.92000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
-         ["f6ll", 0.76000, -0.78000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
+        {"nodeWeight":4.8},
+        ["f6rr", -0.76000, -0.78000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
+        ["f6r", -0.33000, -0.92000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
+        ["f6l", 0.33000, -0.92000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
+        ["f6ll", 0.76000, -0.78000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
 
-         //floor thickness nodes
-         {"collision":false},
-         {"selfCollision":false},
-         {"nodeWeight":7.2},
-         ["f7r", -0.33000, -0.11000, 0.32037,{"group":["sbr_body","sbr_rearint","sbr_dash"]}],
-         ["f7l", 0.33000, -0.11000, 0.34000,{"group":["sbr_body","sbr_rearint","sbr_dash"]}],
-         ["f8r", -0.33000, 0.46000, 0.34000,{"group":["sbr_body","sbr_rearint","sbr_dash"]}],
-         ["f8l", 0.33000, 0.46000, 0.34000,{"group":["sbr_body","sbr_rearint","sbr_dash"]}],
-         ["f9r", -0.33000, 1.07000, 0.31617,{"group":["sbr_body","sbr_rearint"]}],
-         ["f9l", 0.33000, 1.07000, 0.48000,{"group":["sbr_body","sbr_rearint"]}],
-         {"collision":true},
-         {"selfCollision":true},
+        //floor thickness nodes
+        {"collision":false},
+        {"selfCollision":false},
+        {"nodeWeight":7.2},
+        ["f7r", -0.33000, -0.11000, 0.32037,{"group":["sbr_body","sbr_rearint","sbr_dash"]}],
+        ["f7l", 0.33000, -0.11000, 0.34000,{"group":["sbr_body","sbr_rearint","sbr_dash"]}],
+        ["f8r", -0.33000, 0.46000, 0.34000,{"group":["sbr_body","sbr_rearint","sbr_dash"]}],
+        ["f8l", 0.33000, 0.46000, 0.34000,{"group":["sbr_body","sbr_rearint","sbr_dash"]}],
+        ["f9r", -0.33000, 1.07000, 0.31617,{"group":["sbr_body","sbr_rearint"]}],
+        ["f9l", 0.33000, 1.07000, 0.48000,{"group":["sbr_body","sbr_rearint"]}],
+        {"collision":true},
+        {"selfCollision":true},
 
-         //front frame
-         {"nodeWeight":6.6},
-         ["f11rr", -0.45000, -1.80000, 0.25000],
-         ["f11", 0.00000, -1.84000, 0.25000, {"group":["sbr_body","sbr_subframe_F"]"tag":"tow_hook","couplerStrength":101000}],
-         ["f11ll", 0.45000, -1.80000, 0.25000],
-         {"selfCollision":false},
-         ["f10rr", -0.24000, -1.25000, 0.27000],
-         ["f10", 0.00000, -1.40000, 0.21000, {"nodeWeight":4,"group":["sbr_body","sbr_subframe_F"]}],
-         ["f10ll", 0.24000, -1.25000, 0.27000],
-         ["f12rr", -0.24000, -1.25000, 0.34000],
-         ["f12ll", 0.24000, -1.25000, 0.34000],
-         {"selfCollision":true},
-         ["f13rr", -0.45000, -1.80000, 0.45000],
-         ["f13", 0.00000, -1.84000, 0.45000, {"group":["sbr_body","sbr_subframe_F"]}],
-         ["f13ll", 0.45000, -1.80000, 0.45000],
+        //front frame
+        {"nodeWeight":6.6},
+        ["f11rr", -0.45000, -1.80000, 0.25000],
+        ["f11", 0.00000, -1.84000, 0.25000, {"group":["sbr_body","sbr_subframe_F"]"tag":"tow_hook","couplerStrength":101000}],
+        ["f11ll", 0.45000, -1.80000, 0.25000],
+        {"selfCollision":false},
+        ["f10rr", -0.24000, -1.25000, 0.27000],
+        ["f10", 0.00000, -1.40000, 0.21000, {"nodeWeight":4,"group":["sbr_body","sbr_subframe_F"]}],
+        ["f10ll", 0.24000, -1.25000, 0.27000],
+        ["f12rr", -0.24000, -1.25000, 0.34000],
+        ["f12ll", 0.24000, -1.25000, 0.34000],
+        {"selfCollision":true},
+        ["f13rr", -0.45000, -1.80000, 0.45000],
+        ["f13", 0.00000, -1.84000, 0.45000, {"group":["sbr_body","sbr_subframe_F"]}],
+        ["f13ll", 0.45000, -1.80000, 0.45000],
 
-         //front inner bodywork
-         {"nodeWeight":4.8},
-         ["f14rr", -0.76000, -1.25000, 0.74000],
-         ["f14ll", 0.76000, -1.25000, 0.74000],
+        //front inner bodywork
+        {"nodeWeight":4.8},
+        ["f14rr", -0.76000, -1.25000, 0.74000],
+        ["f14ll", 0.76000, -1.25000, 0.74000],
 
-         //rad support
-         {"nodeWeight":4.8},
-         ["f15rr", -0.75000, -1.59000, 0.61000],
-         ["f15r", -0.42000, -1.75000, 0.58000],
-         ["f15", 0.00000, -1.77000, 0.58000],
-         ["f15l", 0.42000, -1.75000, 0.58000],
-         ["f15ll", 0.75000, -1.59000, 0.61000],
+        //rad support
+        {"nodeWeight":4.8},
+        ["f15rr", -0.75000, -1.59000, 0.61000],
+        ["f15r", -0.42000, -1.75000, 0.58000],
+        ["f15", 0.00000, -1.77000, 0.58000],
+        ["f15l", 0.42000, -1.75000, 0.58000],
+        ["f15ll", 0.75000, -1.59000, 0.61000],
 
-         //extra metal
-         ["f19rr", -0.75000, -1.62000, 0.44000],
-         ["f19ll", 0.75000, -1.62000, 0.44000],
-         ["f20rr", -0.75000, -1.64000, 0.21000],
-         ["f20ll", 0.75000, -1.64000, 0.21000],
+        //extra metal
+        ["f19rr", -0.75000, -1.62000, 0.44000],
+        ["f19ll", 0.75000, -1.62000, 0.44000],
+        ["f20rr", -0.75000, -1.64000, 0.21000],
+        ["f20ll", 0.75000, -1.64000, 0.21000],
 
-         //rear frame
-         {"nodeWeight":6.5},
-         ["r1rr", -0.53000, 1.24000, 0.52000,{"group":["sbr_body","sbr_rearint"]}],
-         ["r1", 0.00000, 1.27000, 0.50000,{"selfCollision":false,"group":["sbr_body","sbr_rearint","sbr_coilover_R"]}],
-         ["r1ll", 0.53000, 1.23000, 0.52000,{"group":["sbr_body","sbr_rearint"]}],
-         {"nodeWeight":5.23},
-         ["r2rr", -0.53000, 1.53000, 0.42000],
-         //["r2", 0.00000, 0.76000, 1.07417],
-         ["r2ll", 0.53000, 1.53000, 0.42000],
-         ["r3rr", -0.51000, 1.87000, 0.30000],
-         ["r3", 0.00000, 1.89000, 0.30000],
-         ["r3ll", 0.51000, 1.87000, 0.30000],
-         {"selfCollision":false},
-         ["r5rr", -0.53000, 1.53000, 0.54000,{"group":["sbr_body","sbr_rearint"]}],
-         //["r5", 0.0, 1.53, 0.54,{"group":["sbr_body","sbr_rearint"]}],
-         ["r5ll", 0.53000, 1.53000, 0.54000,{"group":["sbr_body","sbr_rearint"]}],
-         {"selfCollision":true},
-         ["r6rr", -0.51000, 1.87000, 0.54000,{"group":["sbr_body"]}],
-         ["r6", 0.00000, 1.89000, 0.54000,{"group":["sbr_body"]}],
-         ["r6ll", 0.51000, 1.87000, 0.54000,{"group":["sbr_body"]}],
+        //rear frame
+        {"nodeWeight":6.5},
+        ["r1rr", -0.53000, 1.24000, 0.52000,{"group":["sbr_body","sbr_rearint"]}],
+        ["r1", 0.00000, 1.27000, 0.50000,{"selfCollision":false,"group":["sbr_body","sbr_rearint","sbr_coilover_R"]}],
+        ["r1ll", 0.53000, 1.23000, 0.52000,{"group":["sbr_body","sbr_rearint"]}],
+        {"nodeWeight":5.23},
+        ["r2rr", -0.53000, 1.53000, 0.42000],
+        //["r2", 0.00000, 0.76000, 1.07417],
+        ["r2ll", 0.53000, 1.53000, 0.42000],
+        ["r3rr", -0.51000, 1.87000, 0.30000],
+        ["r3", 0.00000, 1.89000, 0.30000],
+        ["r3ll", 0.51000, 1.87000, 0.30000],
+        {"selfCollision":false},
+        ["r5rr", -0.53000, 1.53000, 0.54000,{"group":["sbr_body","sbr_rearint"]}],
+        //["r5", 0.0, 1.53, 0.54,{"group":["sbr_body","sbr_rearint"]}],
+        ["r5ll", 0.53000, 1.53000, 0.54000,{"group":["sbr_body","sbr_rearint"]}],
+        {"selfCollision":true},
+        ["r6rr", -0.51000, 1.87000, 0.54000,{"group":["sbr_body"]}],
+        ["r6", 0.00000, 1.89000, 0.54000,{"group":["sbr_body"]}],
+        ["r6ll", 0.51000, 1.87000, 0.54000,{"group":["sbr_body"]}],
 
-         //--FRONT RUNNING GEAR--
-         //double wishbone suspension
-         //front suspension axis points
-         //lower
-         {"nodeWeight":7.3},
-         {"group":"sbr_lowermounts_a_F"},
-         ["fx1r", -0.25000, -1.48000, 0.18000],
-         ["fx1l", 0.25000, -1.48000, 0.18000],
-         {"group":"sbr_lowermounts_b_F"},
-         ["fx2r", -0.25000, -1.12000, 0.18000],
-         ["fx2l", 0.25000, -1.12000, 0.18000],
+        //--FRONT RUNNING GEAR--
+        //double wishbone suspension
+        //front suspension axis points
+        //lower
+        {"nodeWeight":7.3},
+        {"group":"sbr_lowermounts_a_F"},
+        ["fx1r", -0.25000, -1.48000, 0.18000],
+        ["fx1l", 0.25000, -1.48000, 0.18000],
+        {"group":"sbr_lowermounts_b_F"},
+        ["fx2r", -0.25000, -1.12000, 0.18000],
+        ["fx2l", 0.25000, -1.12000, 0.18000],
 
-         //upper
-         {"nodeWeight":6.45},
-         {"group":"sbr_uppermounts_F"},
-         ["fx3r", -0.35900, -1.36000, 0.44510],
-         ["fx3l", 0.35900, -1.36000, 0.44510],
-         ["fx4r", -0.37000, -1.06000, 0.43500],
-         ["fx4l", 0.37000, -1.09000, 0.43500],
+        //upper
+        {"nodeWeight":6.45},
+        {"group":"sbr_uppermounts_F"},
+        ["fx3r", -0.35900, -1.36000, 0.44510],
+        ["fx3l", 0.35900, -1.36000, 0.44510],
+        ["fx4r", -0.37000, -1.06000, 0.43500],
+        ["fx4l", 0.37000, -1.09000, 0.43500],
 
-         //top of shock
-         {"group":"sbr_shocktop_F"},
-         {"nodeWeight":7.0},
-         {"engineGroup":"radiator"},
-         {"selfCollision":false},
-         ["fs1r", -0.48000, -1.33000, 0.55000],
-         ["fs1l", 0.48000, -1.33000, 0.55000],
-         {"selfCollision":true},
-         {"engineGroup":""},
+        //top of shock
+        {"group":"sbr_shocktop_F"},
+        {"nodeWeight":7.0},
+        {"engineGroup":"radiator"},
+        {"selfCollision":false},
+        ["fs1r", -0.48000, -1.33000, 0.55000],
+        ["fs1l", 0.48000, -1.33000, 0.55000],
+        {"selfCollision":true},
+        {"engineGroup":""},
 
-         //steering box/tie rod end
-         {"nodeWeight":6.15},
-         {"group":"sbr_steeringbox"},
-         {"selfCollision":false},
-         ["fx5r", -0.14000, -1.09000, 0.17700],
-         ["fx5l", 0.14000, -1.09000, 0.17700],
-         {"selfCollision":true},
+        //steering box/tie rod end
+        {"nodeWeight":6.15},
+        {"group":"sbr_steeringbox"},
+        {"selfCollision":false},
+        ["fx5r", -0.14000, -1.09000, 0.17700],
+        ["fx5l", 0.14000, -1.09000, 0.17700],
+        {"selfCollision":true},
 
-         //--REAR RUNNING GEAR--
-         //multilink suspension
-         {"nodeWeight":6.15},
-         //lower arm
-         {"group":"sbr_lowermounts_R"},
-         ["rx1r", -0.38000, 1.22000, 0.15000],
-         ["rx1", 0.00000, 1.05000, 0.15000],
-         ["rx1l", 0.38000, 1.22000, 0.15000],
-         //be careful moving this, this forms a slidenode rail in suspension_R
-         ["rx2r", -0.32000, 1.38000, 0.15000],
-         ["rx2l", 0.32000, 1.38000, 0.15000],
-         //
+        //--REAR RUNNING GEAR--
+        //multilink suspension
+        {"nodeWeight":6.15},
+        //lower arm
+        {"group":"sbr_lowermounts_R"},
+        ["rx1r", -0.38000, 1.22000, 0.15000],
+        ["rx1", 0.00000, 1.05000, 0.15000],
+        ["rx1l", 0.38000, 1.22000, 0.15000],
+        //be careful moving this, this forms a slidenode rail in suspension_R
+        ["rx2r", -0.32000, 1.38000, 0.15000],
+        ["rx2l", 0.32000, 1.38000, 0.15000],
+        //
 
-         //trailing arm
-         //{"group":"sbr_trailingmounts_R"},
-         {"selfCollision":false},
-         ["rx3r", -0.53000, 0.88000, 0.18000],
-         ["rx3l", 0.53000, 0.88000, 0.18000],
+        //trailing arm
+        //{"group":"sbr_trailingmounts_R"},
+        {"selfCollision":false},
+        ["rx3r", -0.53000, 0.88000, 0.18000],
+        ["rx3l", 0.53000, 0.88000, 0.18000],
 
-         //upper wishbone
-         {"nodeWeight":5.23},
-         {"group":"sbr_uppermounts_R"},
-         ["rx4r", -0.46500, 1.14000, 0.23617],
-         ["rx4l", 0.46500, 1.14000, 0.40000],
-         ["rx5r", -0.46500, 1.40000, 0.35000],
-         ["rx5l", 0.46500, 1.40000, 0.35000],
-         {"selfCollision":true},
+        //upper wishbone
+        {"nodeWeight":5.23},
+        {"group":"sbr_uppermounts_R"},
+        ["rx4r", -0.46500, 1.14000, 0.23617],
+        ["rx4l", 0.46500, 1.14000, 0.40000],
+        ["rx5r", -0.46500, 1.40000, 0.35000],
+        ["rx5l", 0.46500, 1.40000, 0.35000],
+        {"selfCollision":true},
 
-         //--BODYWORK--
-         //quarter panel
-         {"group":"sbr_body"},
-         {"nodeWeight":1.43},
-         ["q1r", -0.79000, 0.49000, 0.79000,{"group":["sbr_body","sbr_rearint"]}],//weight added by glass
-         ["q1l", 0.79000, 0.49000, 0.79000,{"group":["sbr_body","sbr_rearint"]}],//weight added by glass
-         ["q2r", -0.80500, 0.88000, 0.80000,{"group":["sbr_body","sbr_rearint"]}],//weight added by glass
-         ["q2l", 0.80500, 0.88000, 0.80000,{"group":["sbr_body","sbr_rearint"]}],//weight added by glass
-         ["q3r", -0.79300, 1.22000, 0.81000,{"group":["sbr_body"]}],//weight added by glass
-         ["q3l", 0.79300, 1.22000, 0.81000,{"group":["sbr_body"]}],//weight added by glass
-         ["q4r", -0.78000, 1.47000, 0.81000,{"group":["sbr_body"]}],
-         ["q4l", 0.78000, 1.47000, 0.81000,{"group":["sbr_body"]}],
-         ["q5r", -0.77000, 1.67000, 0.80000,{"group":["sbr_body"]}],
-         ["q5l", 0.77000, 1.67000, 0.80000,{"group":["sbr_body"]}],
-         ["q6r", -0.76000, 1.86000, 0.74000,{"group":["sbr_body"]}],
-         ["q6l", 0.76000, 1.86000, 0.74000,{"group":["sbr_body"]}],
-         ["q7r", -0.88000, 0.50000, 0.49000,{"group":["sbr_body","sbr_rearint"]}],
-         ["q7l", 0.88000, 0.50000, 0.47286,{"group":["sbr_body","sbr_rearint"]}],
-         ["q8r", -0.89500, 0.93000, 0.57308,{"group":["sbr_body"]}],
-         ["q8l", 0.89500, 0.93000, 0.50000,{"group":["sbr_body"]}],
-         ["q9r", -0.89500, 1.24000, 0.65000,{"group":["sbr_body"]}],
-         ["q9l", 0.89500, 1.24000, 0.65000,{"group":["sbr_body"]}],
-         ["q10r", -0.87500, 1.56000, 0.48000,{"group":["sbr_body"]}],
-         ["q10l", 0.87500, 1.56000, 0.48000,{"group":["sbr_body"]}],
-         ["q11r", -0.83000, 1.74000, 0.50000,{"group":["sbr_body"]}],
-         ["q11l", 0.83000, 1.74000, 0.50000,{"group":["sbr_body"]}],
-         ["q12r", -0.78000, 1.94000, 0.54000],
-         ["q12l", 0.78000, 1.94000, 0.54000],
+        //--BODYWORK--
+        //quarter panel
+        {"group":"sbr_body"},
+        {"nodeWeight":1.43},
+        ["q1r", -0.79000, 0.49000, 0.79000,{"group":["sbr_body","sbr_rearint"]}],//weight added by glass
+        ["q1l", 0.79000, 0.49000, 0.79000,{"group":["sbr_body","sbr_rearint"]}],//weight added by glass
+        ["q2r", -0.80500, 0.88000, 0.80000,{"group":["sbr_body","sbr_rearint"]}],//weight added by glass
+        ["q2l", 0.80500, 0.88000, 0.80000,{"group":["sbr_body","sbr_rearint"]}],//weight added by glass
+        ["q3r", -0.79300, 1.22000, 0.81000,{"group":["sbr_body"]}],//weight added by glass
+        ["q3l", 0.79300, 1.22000, 0.81000,{"group":["sbr_body"]}],//weight added by glass
+        ["q4r", -0.78000, 1.47000, 0.81000,{"group":["sbr_body"]}],
+        ["q4l", 0.78000, 1.47000, 0.81000,{"group":["sbr_body"]}],
+        ["q5r", -0.77000, 1.67000, 0.80000,{"group":["sbr_body"]}],
+        ["q5l", 0.77000, 1.67000, 0.80000,{"group":["sbr_body"]}],
+        ["q6r", -0.76000, 1.86000, 0.74000,{"group":["sbr_body"]}],
+        ["q6l", 0.76000, 1.86000, 0.74000,{"group":["sbr_body"]}],
+        ["q7r", -0.88000, 0.50000, 0.49000,{"group":["sbr_body","sbr_rearint"]}],
+        ["q7l", 0.88000, 0.50000, 0.47286,{"group":["sbr_body","sbr_rearint"]}],
+        ["q8r", -0.89500, 0.93000, 0.57308,{"group":["sbr_body"]}],
+        ["q8l", 0.89500, 0.93000, 0.50000,{"group":["sbr_body"]}],
+        ["q9r", -0.89500, 1.24000, 0.65000,{"group":["sbr_body"]}],
+        ["q9l", 0.89500, 1.24000, 0.65000,{"group":["sbr_body"]}],
+        ["q10r", -0.87500, 1.56000, 0.48000,{"group":["sbr_body"]}],
+        ["q10l", 0.87500, 1.56000, 0.48000,{"group":["sbr_body"]}],
+        ["q11r", -0.83000, 1.74000, 0.50000,{"group":["sbr_body"]}],
+        ["q11l", 0.83000, 1.74000, 0.50000,{"group":["sbr_body"]}],
+        ["q12r", -0.78000, 1.94000, 0.54000],
+        ["q12l", 0.78000, 1.94000, 0.54000],
 
-         //base of rear window/trunk
-         {"nodeWeight":2.57},
-         ["tb1r", -0.50000, 1.67000, 0.75000,{"group":["sbr_body","sbr_rearint"]}],
-         ["tb1", 0.00000, 1.89000, 0.75000,{"group":["sbr_body","sbr_rearint"]}],
-         ["tb1l", 0.50000, 1.67000, 0.75000,{"group":["sbr_body","sbr_rearint"]}],
+        //base of rear window/trunk
+        {"nodeWeight":2.57},
+        ["tb1r", -0.50000, 1.67000, 0.75000,{"group":["sbr_body","sbr_rearint"]}],
+        ["tb1", 0.00000, 1.89000, 0.75000,{"group":["sbr_body","sbr_rearint"]}],
+        ["tb1l", 0.50000, 1.67000, 0.75000,{"group":["sbr_body","sbr_rearint"]}],
 
-         //extra
-         ["tb2r", -0.45000, 1.97000, 0.73000,{"group":["sbr_body"]}],
-         ["tb2", 0.00000, 2.02000, 0.72000,{"group":["sbr_body"]}],
-         ["tb2l", 0.45000, 1.97000, 0.72000,{"group":["sbr_body"]}],
+        //extra
+        ["tb2r", -0.45000, 1.97000, 0.73000,{"group":["sbr_body"]}],
+        ["tb2", 0.00000, 2.02000, 0.72000,{"group":["sbr_body"]}],
+        ["tb2l", 0.45000, 1.97000, 0.72000,{"group":["sbr_body"]}],
 
-         //roof
-         {"group":"sbr_roof"},
-         {"nodeWeight":1.8},
-         ["rf1r", -0.57000, -0.16000, 1.16000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
-         ["rf1", 0.00000, -0.32000, 1.16286,{"nodeWeight":1.5,"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
-         ["rf1l", 0.57000, -0.16000, 1.16000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
-         ["rf2r", -0.57000, 0.14000, 1.17010],
-         ["rf2", 0.00000, 0.11000, 1.21010, {"nodeWeight":1.5}],
-         ["rf2l", 0.57000, 0.14000, 1.17010],
-         ["rf3r", -0.57000, 0.44000, 1.15019], //weight added by glass
-         ["rf3", 0.00000, 0.44000, 1.18190, {"nodeWeight":1.5}],
-         ["rf3l", 0.57000, 0.44000, 1.15019], //weight added by glass
-         ["rf4r", -0.57000, 0.74000, 1.12212], //weight added by glass
-         ["rf4", 0.00000, 0.76000, 1.15212, {"nodeWeight":1.5}],
-         ["rf4l", 0.57000, 0.74000, 1.12212], //weight added by glass
-         ["rf5r", -0.57000, 1.07000, 1.04969,{"group":["sbr_roof"]}],
-         ["rf5", 0.00000, 1.09000, 1.06969,{"nodeWeight":1.5,"group":["sbr_roof"]}],
-         ["rf5l", 0.57000, 1.07000, 1.04969,{"group":["sbr_roof"]}],
+        //roof
+        {"group":"sbr_roof"},
+        {"nodeWeight":1.8},
+        ["rf1r", -0.57000, -0.16000, 1.11234,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+        ["rf1", 0.00000, -0.32000, 1.11520,{"nodeWeight":1.5,"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+        ["rf1l", 0.57000, -0.16000, 1.11234,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+        ["rf2r", -0.57000, 0.14000, 1.12244],
+        ["rf2", 0.00000, 0.11000, 1.12313, {"nodeWeight":1.5}],
+        ["rf2l", 0.57000, 0.14000, 1.12244],
+        ["rf3r", -0.57000, 0.44000, 1.11361], //weight added by glass
+        ["rf3", 0.00000, 0.44000, 1.14532, {"nodeWeight":1.5}],
+        ["rf3l", 0.57000, 0.44000, 1.11361], //weight added by glass
+        ["rf4r", -0.57000, 0.74000, 1.09552], //weight added by glass
+        ["rf4", 0.00000, 0.76000, 1.12552, {"nodeWeight":1.5}],
+        ["rf4l", 0.57000, 0.74000, 1.09552], //weight added by glass
+        ["rf5r", -0.57000, 1.07000, 1.04969,{"group":["sbr_roof"]}],
+        ["rf5", 0.00000, 1.09000, 1.06969,{"nodeWeight":1.5,"group":["sbr_roof"]}],
+        ["rf5l", 0.57000, 1.07000, 1.04969,{"group":["sbr_roof"]}],
 
-         //rigidifier
-         ["rf6", 0.00000, 0.50000, 0.93000, {"collision":false,"selfCollision":false}],
+        //rigidifier
+        ["rf6", 0.00000, 0.50000, 0.90340, {"collision":false,"selfCollision":false}],
 
-         //a pillar
-         {"nodeWeight":1.2},
-         ["p1r", -0.61000, -0.40000, 0.98000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
-         ["p1l", 0.61000, -0.40000, 0.98000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
-         {"group":""},
-         ["p2r", -0.67000, -0.30000, 0.98000],
-         ["p2l", 0.67000, -0.30000, 0.98000],
-         ["p2rr", -0.58000, -0.28000, 0.94000, {"collision":false,"selfCollision":false}],
-         ["p2ll", 0.58000, -0.28000, 0.94000, {"collision":false,"selfCollision":false}],
+        //a pillar
+        {"nodeWeight":1.2},
+        ["p1r", -0.61000, -0.40000, 0.98000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+        ["p1l", 0.61000, -0.40000, 0.98000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+        {"group":""},
+        ["p2r", -0.67000, -0.30000, 0.96891],
+        ["p2l", 0.67000, -0.30000, 0.98000],
+        ["p2rr", -0.58000, -0.28000, 0.94000, {"collision":false,"selfCollision":false}],
+        ["p2ll", 0.58000, -0.28000, 0.94000, {"collision":false,"selfCollision":false}],
 
-         //b pillar
-         //weight added by glass
-         {"nodeWeight":1.0},
-         {"group":"sbr_roof"},
-         ["p3r", -0.68000, 0.39000, 0.95031],
-         ["p3l", 0.68000, 0.39000, 0.92068],
-         ["p4r", -0.68000, 0.49000, 0.92068],
-         ["p4l", 0.68000, 0.49000, 0.92068],
+        //b pillar
+        //weight added by glass
+        {"nodeWeight":1.0},
+        {"group":"sbr_roof"},
+        ["p3r", -0.68000, 0.39000, 0.95031],
+        ["p3l", 0.68000, 0.39000, 0.92068],
+        ["p4r", -0.68000, 0.49000, 0.92068],
+        ["p4l", 0.68000, 0.49000, 0.92068],
 
-         //c pillar
-         {"nodeWeight":1.6},
-         ["p5r", -0.68000, 1.12000, 0.87925],//weight added by glass
-         ["p5l", 0.68000, 1.12000, 0.80617],//weight added by glass
-         ["p6r", -0.63000, 1.34000, 0.89124],
-         ["p6l", 0.63000, 1.34000, 0.89124],
+        //c pillar
+        {"nodeWeight":1.6},
+        ["p5r", -0.68000, 1.12000, 0.87925],//weight added by glass
+        ["p5l", 0.68000, 1.12000, 0.80617],//weight added by glass
+        ["p6r", -0.63000, 1.34000, 0.96120],
+        ["p6l", 0.63000, 1.34000, 0.96120],
 
-         //interior flexbody
-         {"group":"sbr_dash"},
-         {"nodeWeight":0.5},
-         ["int1", 0.60000, -0.56000, 0.80000],
-         ["int2", -0.60000, -0.56000, 0.80000],
-         ["int3", 0.00000, -0.48000, 0.60000],
-         {"group":""},
-    ],
+        //interior flexbody
+        {"group":"sbr_dash"},
+        {"nodeWeight":0.5},
+        ["int1", 0.60000, -0.56000, 0.80000],
+        ["int2", -0.60000, -0.56000, 0.80000],
+        ["int3", 0.00000, -0.48000, 0.60000],
+        {"group":""},
+   ],
     "beams": [
           ["id1:", "id2:"],
           //--BODYWORK--
