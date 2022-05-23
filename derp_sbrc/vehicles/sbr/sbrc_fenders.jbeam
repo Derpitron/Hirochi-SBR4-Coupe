@@ -2,7 +2,7 @@
 "sbrc_fender_R": {
     "information":{
         "authors":"Derpitron",
-        "name":"Refreshed Front Right Fender",
+        "name":"Coupe Front Right Fender",
         "value":520,
     },
     "slotType" : "sbr_fender_R",
@@ -235,7 +235,7 @@
 "sbrc_fender_L": {
     "information":{
         "authors":"BeamNG",
-        "name":"Refreshed Front Left Fender",
+        "name":"Coupe Front Left Fender",
         "value":520,
     },
     "slotType" : "sbr_fender_L",

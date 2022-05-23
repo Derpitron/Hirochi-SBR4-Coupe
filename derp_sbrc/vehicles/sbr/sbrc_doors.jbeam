@@ -407,4 +407,52 @@
             {"group":""},
     ],
 },
+"sbrc_doorpanel_R": {
+    "information":{
+        "authors":"Derpitron",
+        "name":"Coupe Right Door Panel",
+        "value":250,
+    },
+    "slotType" : "sbrc_doorpanel_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbrc_doorpanel_R", ["sbr_door_R"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"nodeMaterial":"|NM_METAL"},
+         {"frictionCoef":0.5},
+         //--DOOR--
+         {"selfCollision":false},
+         {"collision":false},
+         {"nodeWeight":6.9},
+         {"group":"sbr_door_R"},
+         ["d14r",-0.46, 0.17, 0.52],
+         {"group":""},
+    ],
+},
+"sbrc_doorpanel_L": {
+    "information":{
+        "authors":"Derpitron",
+        "name":"Coupe Left Door Panel",
+        "value":250,
+    },
+    "slotType" : "sbrc_doorpanel_L",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbrc_doorpanel_L", ["sbr_door_L"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"nodeMaterial":"|NM_METAL"},
+         {"frictionCoef":0.5},
+         //--DOOR--
+         {"selfCollision":false},
+         {"collision":false},
+         {"nodeWeight":6.9},
+         {"group":"sbr_door_L"},
+         ["d14l"-0.46, 0.17, 0.52],
+         {"group":""},
+    ],
+},
 }
