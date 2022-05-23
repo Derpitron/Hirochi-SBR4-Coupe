@@ -9,7 +9,7 @@
     "slots": [
         ["type", "default", "description"],
         ["sbr_mirror_R","sbr_mirror_R", "Right Mirror"],
-        ["sbr_doorpanel_R","sbr_doorpanel_R", "Right Door Panel"],
+        ["sbrc_doorpanel_R","sbrc_doorpanel_R", "Right Door Panel"],
         ["sbr_doorglass_R","sbr_doorglass_R", "Right Door Glass"],
     ],
     "flexbodies": [
@@ -213,7 +213,7 @@
     "slots": [
         ["type", "default", "description"],
         ["sbr_mirror_L","sbr_mirror_L", "Left Mirror"],
-        ["sbr_doorpanel_L","sbr_doorpanel_L", "Left Door Panel"],
+        ["sbrc_doorpanel_L","sbrc_doorpanel_L", "Left Door Panel"],
         ["sbr_doorglass_L","sbr_doorglass_L", "Left Door Glass"],
     ],
     "flexbodies": [
