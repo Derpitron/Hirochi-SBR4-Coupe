@@ -9,7 +9,7 @@
 	
 		"slots": [
 			["type", "default", "description"],
-			["tire_R_18x8","tire_F_235_40_18_sport", "Rear Tires"],
+			["tire_R_18x8","tire_R_235_40_18_sport", "Rear Tires"],
 		],
 		"flexbodies": [
 			["mesh", "[group]:", "nonFlexMaterials"],
