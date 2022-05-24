@@ -5,12 +5,12 @@
         "name":"Coupe Right Door",
         "value":800,
     },
-    "slotType" : "sbr_door_R",
+    "slotType" : "sbrc_door_R",
     "slots": [
         ["type", "default", "description"],
         ["sbr_mirror_R","sbr_mirror_R", "Right Mirror"],
         ["sbrc_doorpanel_R","sbrc_doorpanel_R", "Right Door Panel"],
-        ["sbr_doorglass_R","sbr_doorglass_R", "Right Door Glass"],
+        ["sbrc_doorglass_R","sbrc_doorglass_R", "Right Door Glass"],
     ],
     "flexbodies": [
          ["mesh", "[group]:", "nonFlexMaterials"],
@@ -209,12 +209,12 @@
         "name":"Coupe Left Door",
         "value":800,
     },
-    "slotType" : "sbr_door_L",
+    "slotType" : "sbrc_door_L",
     "slots": [
         ["type", "default", "description"],
         ["sbr_mirror_L","sbr_mirror_L", "Left Mirror"],
         ["sbrc_doorpanel_L","sbrc_doorpanel_L", "Left Door Panel"],
-        ["sbr_doorglass_L","sbr_doorglass_L", "Left Door Glass"],
+        ["sbrc_doorglass_L","sbrc_doorglass_L", "Left Door Glass"],
     ],
     "flexbodies": [
          ["mesh", "[group]:", "nonFlexMaterials"],

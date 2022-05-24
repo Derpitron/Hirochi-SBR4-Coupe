@@ -2443,8 +2443,8 @@
             ["sbr_headlight_L","sbr_headlight_L", "Left Headlight"],
             ["sbr_taillight_R","sbr_taillight_R", "Right Taillight", {"nodeOffset":{"x":0.0, "y":-0.0679, "z":0.01165}}],
             ["sbr_taillight_L","sbr_taillight_L", "Left Taillight", {"nodeOffset":{"x":0.0, "y":-0.0679, "z":0.01165}}],
-            ["sbr_door_R","sbr_door_R", "Right Door"],
-            ["sbr_door_L","sbr_door_L", "Left Door"],
+            ["sbrc_door_R","sbrc_door_R", "Right Door"],
+            ["sbrc_door_L","sbrc_door_L", "Left Door"],
     
             ["sbr_hood","sbr_hood", "Hood"],
             ["sbrc_tailgate","sbrc_tailgate", "Tailgate"],
