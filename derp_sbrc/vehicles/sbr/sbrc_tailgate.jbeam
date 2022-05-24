@@ -320,7 +320,7 @@
                 ["type", "default", "description"],
                 ["sbr_spoiler","sbr_spoiler", "Spoiler", {"nodeOffset":{"x":0.0, "y":-0.0679, "z":0.01165}}],
                 ["sbr_lettering_tailgate","sbr_lettering_base", "Tailgate Lettering", {"nodeOffset":{"x":0.0, "y":-0.0679, "z":0.01165}}],
-                ["sbrc_tailgateglass","sbrc_tailgateglass", "Coupe Tailgate Glass"],
+                ["sbrc_tailgateglass","sbrc_tailgateglass", "Tailgate Glass"],
                 ["sbr_tailgate_panel","", "Tailgate Panel", {"nodeOffset":{"x":0.0, "y":-0.0679, "z":0.01165}}],
             ],
             "props": [
