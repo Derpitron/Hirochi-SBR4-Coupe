@@ -1,0 +1,134 @@
+{
+"autobello_wheel_03_15x6_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"15x6 GP Sand Star Rear Wheels",
+        "value":270,
+    },
+    "slotType" : "wheel_R_5",
+
+    "slots": [
+        ["type", "default", "description"],
+        ["tire_R_15x6_alt","tire_R_27_7_15_alt_offroad", "Rear Tires"],
+    ],
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         //wheels
+         ["autobello_wheel_03_15x6", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.55, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.07, "y":1.04, "z":1.04}}],
+         ["autobello_wheel_03_15x6", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.55, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.07, "y":1.04, "z":1.04}}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //rear wheel nodes
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+         {"selfCollision":true},
+         {"collision":true},
+         {"nodeWeight":5.0},
+         {"group":"wheelhub_RR"},
+         ["rw1r", -0.33, 0.0, 0.0, {"staticCollision":false}],
+         ["rw1l", 0.33, 0.0, 0.0, {"staticCollision":false}],
+         {"group":"wheelhub_RR"},
+         ["rw1rr", -0.60, 0.0, 0.0, {"staticCollision":false}],
+         ["rw1ll", 0.60, 0.0, 0.0, {"staticCollision":false}],
+         {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          //rear wheels
+          {"beamSpring":1501000,"beamDamp":25},
+          {"beamDeform":78500,"beamStrength":434000},
+          ["rw1r","rw1rr"],
+          ["rw1l","rw1ll"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+        //general settings
+        {"hubRadius":0.205},
+        {"wheelOffset":-0.085},
+        {"hubWidth":0.175},
+        {"numRays":16},
+
+        //hub options
+        {"hubTreadBeamSpring":990900, "hubTreadBeamDamp":10},
+        {"hubPeripheryBeamSpring":990900, "hubPeripheryBeamDamp":10},
+        {"hubSideBeamSpring":1601000, "hubSideBeamDamp":10},
+        {"hubNodeWeight":0.47},
+        {"hubNodeMaterial":"|NM_METAL"},
+        {"hubFrictionCoef":0.5},
+        {"hubBeamDeform":43600, "hubBeamStrength":78000},
+    ],
+},
+"autobello_wheel_03_15x8_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"15x8 GP Sand Star Rear Wheels",
+        "value":300,
+    },
+    "slotType" : "wheel_R_5",
+
+    "slots": [
+        ["type", "default", "description"],
+        ["tire_R_15x8_alt","tire_R_27_10_15_alt_offroad", "Rear Tires"],
+    ],
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         //wheels
+         ["autobello_wheel_03_15x8", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.544, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1.13, "y":1.04, "z":1.04}}],
+         ["autobello_wheel_03_15x8", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.544, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1.13, "y":1.04, "z":1.04}}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //rear wheel nodes
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         {"chemEnergy":200,"burnRate":0.5,"flashPoint":300,"smokePoint":200,"selfIgnition":0,"specHeat":1},
+         {"selfCollision":true},
+         {"collision":true},
+         {"nodeWeight":5.0},
+         {"group":"wheelhub_RR"},
+         ["rw1r", -0.33, 0.0, 0.0, {"staticCollision":false}],
+         ["rw1l", 0.33, 0.0, 0.0, {"staticCollision":false}],
+         {"group":"wheelhub_RR"},
+         ["rw1rr", -0.60, 0.0, 0.0, {"staticCollision":false}],
+         ["rw1ll", 0.60, 0.0, 0.0, {"staticCollision":false}],
+         {"chemEnergy":false,"burnRate":false,"flashPoint":false,"smokePoint":false,"selfIgnition":false,"specHeat":false},
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          //rear wheels
+          {"beamSpring":1501000,"beamDamp":25},
+          {"beamDeform":78500,"beamStrength":434000},
+          ["rw1r","rw1rr"],
+          ["rw1l","rw1ll"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        {"disableMeshBreaking":false,"disableHubMeshBreaking":false,"enableHubcaps":false,"hasTire":false},
+
+        //general settings
+        {"hubRadius":0.205},
+        {"wheelOffset":-0.075},
+        {"hubWidth":0.225},
+        {"numRays":16},
+
+        //hub options
+        {"hubTreadBeamSpring":1035900, "hubTreadBeamDamp":10},
+        {"hubPeripheryBeamSpring":1035900, "hubPeripheryBeamDamp":10},
+        {"hubSideBeamSpring":1751000, "hubSideBeamDamp":10},
+        {"hubNodeWeight":0.55},
+        {"hubNodeMaterial":"|NM_METAL"},
+        {"hubFrictionCoef":0.5},
+        {"hubBeamDeform":43600, "hubBeamStrength":78000},
+    ],
+},
+}
