@@ -637,7 +637,7 @@
     
               //window frame
               {"beamDeform":2500,"beamStrength":"FLT_MAX"},
-              ["d11r", "d6r",],
+              ["d11r", "d6r"],
               ["d10r", "d4r"],
               ["d10r", "d5r"],
               {"deformGroup":""},
