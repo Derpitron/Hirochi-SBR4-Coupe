@@ -1,0 +1,58 @@
+{
+  "sbrc_wheel_03b" : {
+    "name" : "sbrc_wheel_03b",
+    "mapTo" : "sbrc_wheel_03b",
+    "class" : "Material",
+    "persistentId" : "6725c382-bd51-4066-ad09-2496a5da762c",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/sbr/sbrc_wheel_03b_ao.data.png",
+        "baseColorMap": "/vehicles/sbr/sbrc_wheel_03b_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/sbr/sbrc_wheel_03b_m.data.png",
+        "normalMap": "vehicles/sbr/sbrc_wheel_03b_n.DDS",
+        "roughnessMap": "/vehicles/sbr/sbrc_wheel_03b_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "sbrc_grille" : {
+    "name": "sbrc_grille",
+    "mapTo": "sbrc_grille",
+    "class": "Material",
+    "persistentId": "0237eb11-8638-4db4-8f11-770ff1912554",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.412611991,
+          0.412607998,
+          0.412607998,
+          1
+        ],
+        "baseColorMap": "/vehicles/sbr/sbrc_grille_d.DDS",
+        "normalMap": "/vehicles/sbr/sbrc_grille_n.DDS",
+        "opacityMap": "/vehicles/sbr/sbrc_grille_o.data.DDS",
+        "roughnessFactor": 0.445299804
+      },
+      {
+        "roughnessFactor": 0.607767701
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 86,
+    "alphaTest": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  }
+}
