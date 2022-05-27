@@ -2793,15 +2793,15 @@
              //roof
              {"group":"sbr_roof"},
              {"nodeWeight":1.8},
-             ["rf1r", -0.57000, -0.10346, 1.15010,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
-             ["rf1", 0.00000, -0.26346, 1.15296,{"nodeWeight":1.5,"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
-             ["rf1l", 0.57000, -0.10346, 1.15010,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+             ["rf1r", -0.57000, -0.16000, 1.16000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+             ["rf1", 0.00000, -0.32000, 1.16286,{"nodeWeight":1.5,"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+             ["rf1l", 0.57000, -0.16000, 1.16000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
              ["rf2r", -0.57000, 0.14000, 1.17010],
-             ["rf2", 0.00000, 0.11000, 1.19029, {"nodeWeight":1.5}],
+             ["rf2", 0.00000, 0.11000, 1.21010, {"nodeWeight":1.5}],
              ["rf2l", 0.57000, 0.14000, 1.17010],
-             ["rf3r", -0.57000, 0.48962, 1.14020], //weight added by glass
-             ["rf3", 0.00000, 0.48962, 1.17191, {"nodeWeight":1.5}],
-             ["rf3l", 0.57000, 0.48962, 1.14020], //weight added by glass
+             ["rf3r", -0.57000, 0.44000, 1.15019], //weight added by glass
+             ["rf3", 0.00000, 0.44000, 1.18190, {"nodeWeight":1.5}],
+             ["rf3l", 0.57000, 0.44000, 1.15019], //weight added by glass
              ["rf4r", -0.57000, 0.74000, 1.08299], //weight added by glass
              ["rf4", 0.00000, 0.76000, 1.11299, {"nodeWeight":1.5}],
              ["rf4l", 0.57000, 0.74000, 1.08299], //weight added by glass
