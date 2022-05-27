@@ -10,7 +10,7 @@
              ["mesh", "[group]:", "nonFlexMaterials"],
              ["sbrc_tailgate_prime", ["sbr_tailgate"]],
              {"deformGroup":"tailgateglass_break", "deformMaterialBase":"sbr_lights", "deformMaterialDamaged":"sbr_lights_dmg"},
-             ["sbr_chmsl", ["sbr_tailgate"]],
+             ["sbrc_chmsl_prime", ["sbr_tailgate"]],
              {"deformGroup":""},
         ],
         "slots": [
