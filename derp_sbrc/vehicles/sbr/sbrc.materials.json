@@ -1,17 +1,17 @@
 {
-  "sbrc_wheel_03b" : {
-    "name" : "sbrc_wheel_03b",
-    "mapTo" : "sbrc_wheel_03b",
+  "sbrc_wheel_01a" : {
+    "name" : "sbrc_wheel_01a",
+    "mapTo" : "sbrc_wheel_01a",
     "class" : "Material",
     "persistentId" : "6725c382-bd51-4066-ad09-2496a5da762c",
     "Stages": [
       {
-        "ambientOcclusionMap": "/vehicles/sbr/sbrc_wheel_03b_ao.data.png",
-        "baseColorMap": "/vehicles/sbr/sbrc_wheel_03b_b.color.png",
+        "ambientOcclusionMap": "/vehicles/sbr/sbrc_wheel_01a_ao.data.png",
+        "baseColorMap": "/vehicles/sbr/sbrc_wheel_01a_b.color.png",
         "metallicFactor": 1,
-        "metallicMap": "/vehicles/sbr/sbrc_wheel_03b_m.data.png",
-        "normalMap": "vehicles/sbr/sbrc_wheel_03b_n.DDS",
-        "roughnessMap": "/vehicles/sbr/sbrc_wheel_03b_r.data.png",
+        "metallicMap": "/vehicles/sbr/sbrc_wheel_01a_m.data.png",
+        "normalMap": "vehicles/sbr/sbrc_wheel_01a_n.DDS",
+        "roughnessMap": "/vehicles/sbr/sbrc_wheel_01a_r.data.png",
         "useAnisotropic": true
       },
       {},
