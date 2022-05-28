@@ -2441,8 +2441,8 @@
             ["sbr_fender_L","sbr_fender_L", "Front Left Fender"],
             ["sbr_headlight_R","sbr_headlight_R", "Right Headlight"],
             ["sbr_headlight_L","sbr_headlight_L", "Left Headlight"],
-            ["sbr_taillight_R","sbr_taillight_R", "Right Taillight", {"nodeOffset":{"x":0.0, "y":-0.0679, "z":0.01165}}],
-            ["sbr_taillight_L","sbr_taillight_L", "Left Taillight", {"nodeOffset":{"x":0.0, "y":-0.0679, "z":0.01165}}],
+            ["sbr_taillight_R","sbr_taillight_R", "Right Taillight", {"nodeOffset":{"x":0.0, "y":-0.065, "z":0.0}}],
+            ["sbr_taillight_L","sbr_taillight_L", "Left Taillight", {"nodeOffset":{"x":0.0, "y":-0.065, "z":0.0}}],
             ["sbrc_door_R","sbrc_door_R", "Right Door"],
             ["sbrc_door_L","sbrc_door_L", "Left Door"],
     
@@ -2776,8 +2776,8 @@
              ["q10l", 0.87500, 1.56000, 0.48000,{"group":["sbr_body"]}],
              ["q11r", -0.83000, 1.74000, 0.50000,{"group":["sbr_body"]}],
              ["q11l", 0.83000, 1.74000, 0.50000,{"group":["sbr_body"]}],
-             ["q12r", -0.78000, 1.937, 0.579],
-             ["q12l", 0.78000, 1.937, 0.579],
+             ["q12r", -0.78000, 1.93700, 0.57900],
+             ["q12l", 0.78000, 1.93700, 0.57900],
     
              //base of rear window/trunk
              {"nodeWeight":2.57},
@@ -2805,9 +2805,9 @@
              ["rf4r", -0.57000, 0.74000, 1.08299], //weight added by glass
              ["rf4", 0.00000, 0.76000, 1.11299, {"nodeWeight":1.5}],
              ["rf4l", 0.57000, 0.74000, 1.08299], //weight added by glass
-             ["rf5r", -0.57000, 1.07000, 1.02977,{"group":["sbr_roof"]}],
-             ["rf5", 0.00000, 1.09000, 1.04977,{"nodeWeight":1.5,"group":["sbr_roof"]}],
-             ["rf5l", 0.57000, 1.07000, 1.02977,{"group":["sbr_roof"]}],
+             ["rf5r", -0.46316, 1.07680, 1.02977,{"group":["sbr_roof"]}],
+             ["rf5", 0.00000, 1.09680, 1.04977,{"nodeWeight":1.5,"group":["sbr_roof"]}],
+             ["rf5l", 0.46316, 1.07680, 1.02977,{"group":["sbr_roof"]}],
     
              //rigidifier
              ["rf6", 0.00000, 0.50000, 0.93000, {"collision":false,"selfCollision":false}],
@@ -2835,8 +2835,8 @@
              {"nodeWeight":1.6},
              ["p5r", -0.68000, 1.12000, 0.87925],//weight added by glass
              ["p5l", 0.68000, 1.12000, 0.80617],//weight added by glass
-             ["p6r", -0.63000, 1.25140, 0.93021],
-             ["p6l", 0.63000, 1.25140, 0.93021],
+             ["p6r", -0.48262, 1.25140, 0.93021],
+             ["p6l", 0.48262, 1.25140, 0.93021],
     
              //interior flexbody
              {"group":"sbr_dash"},
