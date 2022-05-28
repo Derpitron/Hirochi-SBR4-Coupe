@@ -1,5 +1,5 @@
 {
-	"sbrc_wheel_03b_18x9_F": {
+	"sbrc_wheel_01a_18x9_F": {
 		"information":{
 			"authors":"Derpitron",
 			"name":"18x9 Hirochi Tandem Front Wheels",
@@ -13,8 +13,8 @@
 		],
 		"flexbodies": [
 			["mesh", "[group]:", "nonFlexMaterials"],
-			["sbrc_wheel_03b_18x9", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.51, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
-			["sbrc_wheel_03b_18x9", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.51, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1, "y":1, "z":1}}],
+			["sbrc_wheel_01a_18x9", ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.51, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+			["sbrc_wheel_01a_18x9", ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.51, "y":-0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1, "y":1, "z":1}}],
 		],
 		"nodes": [
 			["id", "posX", "posY", "posZ"],
