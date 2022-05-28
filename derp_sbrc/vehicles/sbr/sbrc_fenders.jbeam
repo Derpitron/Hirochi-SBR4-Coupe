@@ -8,7 +8,7 @@
         "slotType" : "sbr_fender_R",
         "flexbodies": [
              ["mesh", "[group]:", "nonFlexMaterials"],
-             ["sbr_fender_R", ["sbr_fender_R"]],
+             ["sbrc_fender_R", ["sbr_fender_R"]],
         ],
         "slots": [
             ["type", "default", "description"],
