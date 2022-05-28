@@ -2,11 +2,13 @@
 "vars":{
   "$toe_RR":1.002,
   "$camber_RR":0.978
+  "$trackoffset_F":-0.02,
+  "$trackoffset_R":-0.02
 },
 "parts":{
   "sbr_body":"sbrc_body",
-  "sbr_doorglass_L":"sbrc_doorglass_L",
-  "sbr_doorglass_R":"sbrc_doorglass_R",
+  "sbrc_doorglass_L":"sbrc_doorglass_L",
+  "sbrc_doorglass_R":"sbrc_doorglass_R",
   "sbr_DSE":"sbr_DSE",
   "sbr_DSE_ABS":"sbr_DSE_ABS"
   "sbr_DSE_ESC":"sbr_DSE_ESC",
@@ -18,8 +20,8 @@
   "sbr_headlight_R":"sbr_headlight_R",
   "sbr_engine":"sbr_engine_2.5",
   "sbr_licenseplate_F":"none",
-  "sbr_tailgate":"sbrc_tailgate",
-  "sbr_door_L":"sbr_door_L",
+  "sbrc_tailgate":"sbrc_tailgate",
+  "sbrc_door_L":"sbrc_door_L",
   "sbr_differential_F":"none",
   "sbr_differential_R":"sbr_differential_R_LSD",
   "sbr_intake":"sbr_twinturbo_stage1",
@@ -27,11 +29,9 @@
   "sbr_brake_R":"sbr_brake_R_S",
   "sbr_taillight_L":"sbr_taillight_L",
   "sbr_muffler":"sbr_muffler",
-  "wheel_F_5":"hirochi_wheel_03a_18x8_F",
   "sbr_headlight_L":"sbr_headlight_L",
-  "sbr_fender_R":"sbr_fender_R",
+  "sbrc_fender_R":"sbrc_fender_R",
   "skin_interior":"sbr_skin_interior_brown",
-  "wheel_R_5":"hirochi_wheel_03a_18x11_R",
   "sbr_lettering_tailgate":"sbr_lettering_TT_S",
   "sbr_radiator":"sbr_radiator_race",
   "sbr_bumperbar_F":"sbr_bumperbar_F",
@@ -41,14 +41,12 @@
   "sbr_bumper_F":"sbrc_bumper_F_refresh",
   "sbr_spoiler":"sbr_spoiler",
   "sbr_swaybar_F":"sbr_swaybar_F_S2",
-  "tire_R_18x11":"tire_R_295_30_18_sport",
   "sbr_suspension_F":"sbr_suspension_F",
   "sbr_swaybar_R":"sbr_swaybar_R",
   "sbr_hood":"sbr_hood",
-  "sbr_fender_L":"sbr_fender_L",
-  "tire_F_18x8":"tire_F_225_40_18_sport",
+  "sbrc_fender_L":"sbrc_fender_L",
   "sbr_wheeldata_F":"sbr_wheeldata_F",
-  "sbr_door_R":"sbr_door_R",
+  "sbrc_door_R":"sbrc_door_R",
   "sbr_fueltank":"sbr_fueltank",
   "sbr_steer":"sbr_steer_paddles",
   "sbr_mirror_L":"sbr_mirror_L",
@@ -63,6 +61,10 @@
   "sbr_suspension_R":"sbr_suspension_R",
   "brakepad_F":"brakepad_F_sport",
   "brakepad_R":"brakepad_R_sport",
+  "tire_F_18x9":"tire_F_245_40_18_sport",
+  "tire_R_18x9":"tire_R_245_40_18_sport",
+  "wheel_F_5":"sbrc_wheel_01a_18x9_F",
+  "wheel_R_5":"sbrc_wheel_01a_18x9_R"
 },
 "format":2
 }
