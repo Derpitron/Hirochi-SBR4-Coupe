@@ -81,8 +81,13 @@
 		],
 		"flexbodies": [
 			["mesh", "[group]:", "nonFlexMaterials"],
+<<<<<<< HEAD
 			["sbrc_wheel_01a_18x11", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.47, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":0.995, "y":1, "z":1}}],
 			["sbrc_wheel_01a_18x11", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.47, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":0.995, "y":1, "z":1}}],
+=======
+			["sbrc_wheel_01a_18x11", ["wheel_RR","wheelhub_RR"], [], {"pos":{"x":-0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":180}, "scale":{"x":1, "y":1, "z":1}}],
+			["sbrc_wheel_01a_18x11", ["wheel_RL","wheelhub_RL"], [], {"pos":{"x": 0.51, "y":0.0, "z":0.0}, "rot":{"x":0, "y":0, "z":0},   "scale":{"x":1, "y":1, "z":1}}],
+>>>>>>> c3f04dc5e93a5122be183f21ef7aaf238c98bc7f
 		],
 		"nodes": [
 			["id", "posX", "posY", "posZ"],
