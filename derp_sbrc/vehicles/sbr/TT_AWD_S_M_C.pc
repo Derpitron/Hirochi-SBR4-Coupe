@@ -60,10 +60,10 @@
   "sbr_suspension_R":"sbr_suspension_R",
   "brakepad_F":"brakepad_F_sport",
   "brakepad_R":"brakepad_R_sport",
-  "tire_F_18x9":"tire_F_245_40_18_sport",
-  "tire_R_18x9":"tire_R_245_40_18_sport",
-  "wheel_F_5":"sbrc_wheel_01a_18x9_F",
-  "wheel_R_5":"sbrc_wheel_01a_18x9_R"
+  "tire_F_18x8":"tire_F_225_40_18_sport",
+  "tire_R_18x11":"tire_R_295_30_18_sport",
+  "wheel_F_5":"sbrc_wheel_01a_18x8_F",
+  "wheel_R_5":"sbrc_wheel_01a_18x11_R"
 },
 "format":2
 }
