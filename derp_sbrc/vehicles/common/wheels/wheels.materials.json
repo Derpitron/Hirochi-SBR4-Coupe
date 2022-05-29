@@ -1,0 +1,27 @@
+{
+	"sbrc_wheel_01a" : {
+	  "name" : "sbrc_wheel_01a",
+	  "mapTo" : "sbrc_wheel_01a",
+	  "class" : "Material",
+	  "persistentId" : "6725c382-bd51-4066-ad09-2496a5da762c",
+	  "Stages": [
+		{
+		  "ambientOcclusionMap": "/vehicles/common/wheels/uv/sbrc_wheel_01a_ao.data.DDS",
+		  "baseColorMap": "/vehicles/common/wheels/uv/sbrc_wheel_01a_b.color.DDS",
+		  "metallicFactor": 1,
+		  "metallicMap": "/vehicles/common/wheels/uv/sbrc_wheel_01a_m.data.DDS",
+		  "normalMap": "vehicles/common/wheels/uv/sbrc_wheel_01a_n.DDS",
+		  "roughnessMap": "/vehicles/common/wheels/uv/sbrc_wheel_01a_r.data.DDS",
+		  "useAnisotropic": true
+		},
+		{},
+		{},
+		{}
+	  ],
+	  "dynamicCubemap": true,
+	  "materialTag0": "beamng",
+	  "materialTag1": "vehicle",
+	  "order_simset": 0,
+	  "version": 1.5
+	},
+}
