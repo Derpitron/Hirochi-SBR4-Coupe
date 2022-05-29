@@ -6,12 +6,12 @@
 	  "persistentId" : "6725c382-bd51-4066-ad09-2496a5da762c",
 	  "Stages": [
 		{
-		  "ambientOcclusionMap": "/vehicles/common/wheels/uv/sbrc_wheel_01a_ao.data.DDS",
-		  "baseColorMap": "/vehicles/common/wheels/uv/sbrc_wheel_01a_b.color.DDS",
+		  "ambientOcclusionMap": "/vehicles/common/wheels/sbrc_wheel_01a_ao.data.DDS",
+		  "baseColorMap": "/vehicles/common/wheels/sbrc_wheel_01a_b.color.DDS",
 		  "metallicFactor": 1,
-		  "metallicMap": "/vehicles/common/wheels/uv/sbrc_wheel_01a_m.data.DDS",
-		  "normalMap": "vehicles/common/wheels/uv/sbrc_wheel_01a_n.DDS",
-		  "roughnessMap": "/vehicles/common/wheels/uv/sbrc_wheel_01a_r.data.DDS",
+		  "metallicMap": "/vehicles/common/wheels/sbrc_wheel_01a_m.data.DDS",
+		  "normalMap": "vehicles/common/wheels/sbrc_wheel_01a_n.DDS",
+		  "roughnessMap": "/vehicles/common/wheels/sbrc_wheel_01a_r.data.DDS",
 		  "useAnisotropic": true
 		},
 		{},
