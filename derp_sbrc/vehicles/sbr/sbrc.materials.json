@@ -6,28 +6,30 @@
     "persistentId": "0237eb11-8638-4db4-8f11-770ff1912554",
     "Stages": [
       {
+        "ambientOcclusionMap": "/vehicles/sbr/sbrc_grille_o.DDS",
         "baseColorFactor": [
-          0.412611991,
-          0.412607998,
-          0.412607998,
+          0.560693026,
+          0.560688019,
+          0.560688019,
           1
         ],
-        "baseColorMap": "/vehicles/sbr/sbrc_grille_d.DDS",
+        "baseColorMap": "/vehicles/sbr/scintilla_grille_b.color.DDS",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/sbr/sbrc_grille_m.data.DDS",
         "normalMap": "/vehicles/sbr/sbrc_grille_n.DDS",
-        "opacityMap": "/vehicles/sbr/sbrc_grille_o.data.DDS",
-        "roughnessFactor": 0.445299804
+        "opacityMap": "/vehicles/sbr/sbrc_grille_o.DDS",
+        "roughnessMap": "/vehicles/sbr/sbrc_grille_r.data.DDS"
       },
-      {
-        "roughnessFactor": 0.607767701
-      },
+      {},
       {},
       {}
     ],
-    "alphaRef": 30,
+    "alphaRef": 77,
     "alphaTest": true,
-    "materialTag0": "beamng",
-    "materialTag1": "vehicle",
+    "doubleSided": true,
+    "dynamicCubemap": true,
     "translucentBlendOp": "None",
+    "translucentRecvShadows": true,
     "version": 1.5
   }
 }
