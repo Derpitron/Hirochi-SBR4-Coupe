@@ -2,7 +2,7 @@
 "sbr_body":{
 	"information":{
 		"authors":"Derpitron",
-		"name":"Prime Coupe Unibody",
+		"name":"Coupe Unibody",
 		"value":30000,
 	},
 	"slotType" : "sbr_body",
@@ -48,7 +48,7 @@
 	],
 	"flexbodies": [
 		["mesh", "[group]:", "nonFlexMaterials"],
-		["sbrc_body_prime",["sbr_body", "sbr_roof"]],
+		["sbrc_body",["sbr_body", "sbr_roof"]],
 		["sbr_engbaycrap",["sbr_body"]],
 		["sbr_frunk",["sbr_body"]],
 		["sbr_brakelines",["sbr_body", "sbr_hub_F_b"]],

@@ -750,18 +750,18 @@
              {"selfCollision":true},
              {"group":"sbr_tailgate"},
              {"nodeWeight":2.3},
-             ["t1r", -0.46245, 1.07000, 1.05598],
-             ["t1", 0.00000, 1.09102, 1.07468],
-             ["t1l", 0.46245, 1.07000, 1.05598],
+             ["t1r", -0.463012, 1.07943, 1.05242],
+             ["t1", 0.00000, 1.08116, 1.06783],
+             ["t1l", 0.463012, 1.07943, 1.05242],
     
-             ["t2rr", -0.502, 1.37000, 0.97353],
-             ["t2ll", 0.5020, 1.37000, 0.97353],
+             ["t2rr", -0.487766, 1.37, 0.948843],
+             ["t2ll", 0.487766, 1.37, 0.948843],
     
-             ["t3rr", -0.44040, 1.52416, 0.91425],
+             ["t3rr", -0.425861, 1.52416, 0.889564],
              ["t3r", -0.28309, 1.66000, 0.84434],
              ["t3", 0.00000, 1.67000, 0.84434],
              ["t3l", 0.28309, 1.66000, 0.84434],
-             ["t3ll", 0.44040, 1.52416, 0.91425],
+             ["t3ll", 0.425861, 1.52416, 0.889564],
              {"group":""},
         ],
         "beams": [
@@ -822,7 +822,7 @@
              {"nodeWeight":1.6},
              {"group":"sbr_windshield"},
              //windshield node
-             ["wi1", 0.00000, -0.68000, 0.94001, {"group":["sbr_windshield","gps"]}],
+             ["wi1", 0.00000, -0.704134, 0.94001, {"group":["sbr_windshield","gps"]}],
              {"nodeMaterial":"|NM_METAL"},
     
              //--ADD WEIGHT--
@@ -830,20 +830,20 @@
              {"group":"sbr_body"},
              //a pillar
              {"nodeWeight":2.4},
-             ["p1r", -0.61000, -0.40000, 0.98000,{"group":["sbr_roof","sbr_windshield"]}],
-             ["p1l", 0.61000, -0.40000, 0.98000,{"group":["sbr_roof","sbr_windshield"]}],
+             ["p1r", -0.665344, -0.369594, 0.974867,{"group":["sbr_roof","sbr_windshield"]}],
+             ["p1l", 0.665344, -0.369594, 0.974867,{"group":["sbr_roof","sbr_windshield"]}],
              //roof
              {"group":"sbr_roof"},
              {"nodeWeight":3.0},
-             ["rf1r", -0.57000, -0.16000, 1.13004,{"group":["sbr_roof","sbr_windshield"]}],
-             ["rf1", 0.00000, -0.32000, 1.15004,{"nodeWeight":2.5,"group":["sbr_roof","sbr_windshield"]}],
-             ["rf1l", 0.57000, -0.16000, 1.13004,{"group":["sbr_roof","sbr_windshield"]}],
+             ["rf1r", -0.57000, -0.052338, 1.12199,{"group":["sbr_roof","sbr_windshield"]}],
+             ["rf1", 0.00000, -0.281754, 1.13324,{"nodeWeight":2.5,"group":["sbr_roof","sbr_windshield"]}],
+             ["rf1l", 0.57000, -0.052338, 1.12199,{"group":["sbr_roof","sbr_windshield"]}],
              //firewall
              {"nodeWeight":6.0},
-             ["f6rr", -0.76000, -0.78000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
-             ["f6r", -0.33000, -0.92000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
-             ["f6l", 0.33000, -0.92000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
-             ["f6ll", 0.76000, -0.78000, 0.78000,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
+             ["f6rr", -0.67583, -0.78000, 0.797884,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
+             ["f6r", -0.33000, -0.92000, 0.797884,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
+             ["f6l", 0.33000, -0.92000, 0.797884,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
+             ["f6ll", 0.67583, -0.78000, 0.797884,{"group":["sbr_body","gps","sbr_windshield","sbr_dash"]}],
              {"group":""},
         ],
     

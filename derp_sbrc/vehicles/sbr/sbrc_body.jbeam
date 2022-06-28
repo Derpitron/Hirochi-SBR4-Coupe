@@ -2673,7 +2673,7 @@
              //["r2", 0.00000, 0.76000, 1.07417],
              ["r2ll", 0.53000, 1.53000, 0.42000],
              ["r3rr", -0.51000, 1.87000, 0.30000],
-             ["r3", 0.00000, 1.89000, 0.30000],
+             ["r3", 0.00000, 1.81631, 0.30000],
              ["r3ll", 0.51000, 1.87000, 0.30000],
              {"selfCollision":false},
              ["r5rr", -0.53000, 1.53000, 0.54000,{"group":["sbr_body","sbr_rearint"]}],
@@ -2756,66 +2756,66 @@
              {"nodeWeight":1.43},
              ["q1r", -0.79000, 0.49000, 0.79000,{"group":["sbr_body","sbr_rearint"]}],//weight added by glass
              ["q1l", 0.79000, 0.49000, 0.79000,{"group":["sbr_body","sbr_rearint"]}],//weight added by glass
-             ["q2r", -0.80500, 0.88000, 0.80000,{"group":["sbr_body","sbr_rearint"]}],//weight added by glass
-             ["q2l", 0.80500, 0.88000, 0.80000,{"group":["sbr_body","sbr_rearint"]}],//weight added by glass
-             ["q3r", -0.79300, 1.22000, 0.82896,{"group":["sbr_body"]}],//weight added by glass
-             ["q3l", 0.79300, 1.22000, 0.82896,{"group":["sbr_body"]}],//weight added by glass
-             ["q4r", -0.78000, 1.47000, 0.82896,{"group":["sbr_body"]}],
-             ["q4l", 0.78000, 1.47000, 0.82896,{"group":["sbr_body"]}],
-             ["q5r", -0.77000, 1.67000, 0.80000,{"group":["sbr_body"]}],
-             ["q5l", 0.77000, 1.67000, 0.80000,{"group":["sbr_body"]}],
-             ["q6r", -0.76000, 1.83000, 0.74000,{"group":["sbr_body"]}],
-             ["q6l", 0.76000, 1.83000, 0.74000,{"group":["sbr_body"]}],
-             ["q7r", -0.88000, 0.50000, 0.49000,{"group":["sbr_body","sbr_rearint"]}],
-             ["q7l", 0.88000, 0.50000, 0.47286,{"group":["sbr_body","sbr_rearint"]}],
-             ["q8r", -0.89500, 0.93000, 0.57308,{"group":["sbr_body"]}],
+             ["q2r", -0.791792, 0.88000, 0.786433,{"group":["sbr_body","sbr_rearint"]}],//weight added by glass
+             ["q2l", 0.791792, 0.88000, 0.786433,{"group":["sbr_body","sbr_rearint"]}],//weight added by glass
+             ["q3r", -0.79300, 1.22000, 0.8072,{"group":["sbr_body"]}],//weight added by glass
+             ["q3l", 0.79300, 1.22000, 0.8072,{"group":["sbr_body"]}],//weight added by glass
+             ["q4r", -0.78000, 1.47000, 0.796352,{"group":["sbr_body"]}],
+             ["q4l", 0.78000, 1.47000, 0.796352,{"group":["sbr_body"]}],
+             ["q5r", -0.77000, 1.67000, 0.773159,{"group":["sbr_body"]}],
+             ["q5l", 0.77000, 1.67000, 0.773159,{"group":["sbr_body"]}],
+             ["q6r", -0.76000, 1.7956, 0.7191,{"group":["sbr_body"]}],
+             ["q6l", 0.76000, 1.7956, 0.7191,{"group":["sbr_body"]}],
+             ["q7r", -0.88, 0.5, 0.49,{"group":["sbr_body","sbr_rearint"]}],
+             ["q7l", 0.88, 0.5, 0.49,{"group":["sbr_body","sbr_rearint"]}],
+             ["q8r", -0.89500, 0.93000, 0.50000,{"group":["sbr_body"]}],
              ["q8l", 0.89500, 0.93000, 0.50000,{"group":["sbr_body"]}],
              ["q9r", -0.89500, 1.24000, 0.65000,{"group":["sbr_body"]}],
              ["q9l", 0.89500, 1.24000, 0.65000,{"group":["sbr_body"]}],
-             ["q10r", -0.87500, 1.56000, 0.48000,{"group":["sbr_body"]}],
-             ["q10l", 0.87500, 1.56000, 0.48000,{"group":["sbr_body"]}],
-             ["q11r", -0.83000, 1.74000, 0.50000,{"group":["sbr_body"]}],
-             ["q11l", 0.83000, 1.74000, 0.50000,{"group":["sbr_body"]}],
-             ["q12r", -0.78000, 1.93700, 0.57900],
-             ["q12l", 0.78000, 1.93700, 0.57900],
+             ["q10r", -0.87500, 1.58072, 0.455835,{"group":["sbr_body"]}],
+             ["q10l", 0.87500, 1.58072, 0.455835,{"group":["sbr_body"]}],
+             ["q11r", -0.83000, 1.72607, 0.507129,{"group":["sbr_body"]}],
+             ["q11l", 0.83000, 1.72607, 0.507129,{"group":["sbr_body"]}],
+             ["q12r", -0.78000, 1.9288, 0.556332],
+             ["q12l", 0.78000, 1.9288, 0.556332],
     
              //base of rear window/trunk
              {"nodeWeight":2.57},
-             ["tb1r", -0.50000, 1.67000, 0.75000,{"group":["sbr_body","sbr_rearint"]}],
-             ["tb1", 0.00000, 1.89000, 0.75000,{"group":["sbr_body","sbr_rearint"]}],
-             ["tb1l", 0.50000, 1.67000, 0.75000,{"group":["sbr_body","sbr_rearint"]}],
+             ["tb1r", -0.645092, 1.73204, 0.75000,{"group":["sbr_body","sbr_rearint"]}],
+             ["tb1", 0.00000, 1.7908, 0.75000,{"group":["sbr_body","sbr_rearint"]}],
+             ["tb1l", 0.645092, 1.73204, 0.75000,{"group":["sbr_body","sbr_rearint"]}],
     
              //extra
-             ["tb2r", -0.45000, 1.94000, 0.73000,{"group":["sbr_body"]}],
-             ["tb2", 0.00000, 1.99000, 0.72000,{"group":["sbr_body"]}],
-             ["tb2l", 0.45000, 1.94000, 0.72000,{"group":["sbr_body"]}],
+             ["tb2r", -0.45000, 1.84724, 0.72000,{"group":["sbr_body"]}],
+             ["tb2", 0.00000, 1.94631, 0.72000,{"group":["sbr_body"]}],
+             ["tb2l", 0.45000, 1.84724, 0.72000,{"group":["sbr_body"]}],
     
              //roof
              {"group":"sbr_roof"},
              {"nodeWeight":1.8},
-             ["rf1r", -0.57000, -0.16000, 1.16000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
-             ["rf1", 0.00000, -0.32000, 1.16286,{"nodeWeight":1.5,"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
-             ["rf1l", 0.57000, -0.16000, 1.16000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
-             ["rf2r", -0.57000, 0.14000, 1.17010],
-             ["rf2", 0.00000, 0.11000, 1.21010, {"nodeWeight":1.5}],
-             ["rf2l", 0.57000, 0.14000, 1.17010],
-             ["rf3r", -0.57000, 0.44000, 1.15019], //weight added by glass
-             ["rf3", 0.00000, 0.44000, 1.18190, {"nodeWeight":1.5}],
-             ["rf3l", 0.57000, 0.44000, 1.15019], //weight added by glass
-             ["rf4r", -0.57000, 0.74000, 1.08299], //weight added by glass
-             ["rf4", 0.00000, 0.76000, 1.11299, {"nodeWeight":1.5}],
-             ["rf4l", 0.57000, 0.74000, 1.08299], //weight added by glass
-             ["rf5r", -0.46316, 1.07680, 1.02977,{"group":["sbr_roof"]}],
-             ["rf5", 0.00000, 1.09680, 1.04977,{"nodeWeight":1.5,"group":["sbr_roof"]}],
-             ["rf5l", 0.46316, 1.07680, 1.02977,{"group":["sbr_roof"]}],
+             ["rf1r", -0.565785, -0.092475, 1.12967,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+             ["rf1", 0.00000, -0.267371, 1.13253,{"nodeWeight":1.5,"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+             ["rf1l", 0.565785, -0.092475, 1.12967,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+             ["rf2r", -0.555242, 0.14000, 1.15897],
+             ["rf2", 0.00000, 0.11000, 1.18761, {"nodeWeight":1.5}],
+             ["rf2l", 0.555242, 0.14000, 1.15897],
+             ["rf3r", -0.555242, 0.49969, 1.1477], //weight added by glass
+             ["rf3", 0.00000, 0.49969, 1.17855, {"nodeWeight":1.5}],
+             ["rf3l", 0.555242, 0.49969, 1.1477], //weight added by glass
+             ["rf4r", -0.563546, 0.74000, 1.09552], //weight added by glass
+             ["rf4", 0.00000, 0.76000, 1.14, {"nodeWeight":1.5}],
+             ["rf4l", 0.563546, 0.74000, 1.09552], //weight added by glass
+             ["rf5r", -0.557343, 1.0903, 1.01078,{"group":["sbr_roof"]}],
+             ["rf5", 0.00000, 1.0903, 1.04497,{"nodeWeight":1.5,"group":["sbr_roof"]}],
+             ["rf5l", 0.557343, 1.0903, 1.01078,{"group":["sbr_roof"]}],
     
              //rigidifier
-             ["rf6", 0.00000, 0.50000, 0.93000, {"collision":false,"selfCollision":false}],
+             ["rf6", 0.00000, 0.49000, 0.920681, {"collision":false,"selfCollision":false}],
     
              //a pillar
              {"nodeWeight":1.2},
-             ["p1r", -0.61000, -0.46195, 0.98000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
-             ["p1l", 0.61000, -0.46195, 0.98000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+             ["p1r", -0.648606, -0.4, 0.98000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
+             ["p1l", 0.648606, -0.4, 0.98000,{"group":["sbr_roof","sbr_windshield"]}], //weight added by glass
              {"group":""},
              ["p2r", -0.67000, -0.36195, 0.98000],
              ["p2l", 0.67000, -0.36195, 0.98000],
@@ -2826,17 +2826,17 @@
              //weight added by glass
              {"nodeWeight":1.0},
              {"group":"sbr_roof"},
-             ["p3r", -0.68000, 0.39000, 0.95031],
-             ["p3l", 0.68000, 0.39000, 0.92068],
+             ["p3r", -0.708485, 0.39000, 0.92068],
+             ["p3l", 0.708485, 0.39000, 0.92068],
              ["p4r", -0.68000, 0.49000, 0.92068],
              ["p4l", 0.68000, 0.49000, 0.92068],
     
              //c pillar
              {"nodeWeight":1.6},
-             ["p5r", -0.68000, 1.12000, 0.87925],//weight added by glass
-             ["p5l", 0.68000, 1.12000, 0.80617],//weight added by glass
-             ["p6r", -0.48262, 1.25140, 0.93021],
-             ["p6l", 0.48262, 1.25140, 0.93021],
+             ["p5r", -0.70726, 1.12, 0.81623],//weight added by glass
+             ["p5l", 0.70726, 1.12, 0.81623],//weight added by glass
+             ["p6r", -0.51917, 1.5305, 0.89133],
+             ["p6l", 0.51917, 1.5305, 0.89133],
     
              //interior flexbody
              {"group":"sbr_dash"},
