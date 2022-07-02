@@ -13,7 +13,7 @@
           0.560688019,
           1
         ],
-        "baseColorMap": "/vehicles/sbr/scintilla_grille_b.color.DDS",
+        "baseColorMap": "/vehicles/sbr/sbrc_grille_b.color.DDS",
         "metallicFactor": 1,
         "metallicMap": "/vehicles/sbr/sbrc_grille_m.data.DDS",
         "normalMap": "/vehicles/sbr/sbrc_grille_n.DDS",
