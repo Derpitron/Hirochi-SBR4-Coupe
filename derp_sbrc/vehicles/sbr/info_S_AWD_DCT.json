@@ -1,0 +1,43 @@
+{
+  "0-100 km/h":4.6,
+  "0-100 mph":10.6,
+  "0-200 km/h":17,
+  "0-60 mph":4.5,
+  "100-0 km/h":34.5,
+  "100-200 km/h":12.3,
+  "60-0 mph":104.8,
+  "60-100 mph":6.1,
+  "BoundingBox":[
+    [
+      -0.67,
+      -1.11,
+      -0.187
+    ],
+    [
+      1.33,
+      3.08,
+      1.07
+    ]
+  ],
+  "Braking G":1.139,
+  "Config Type":"Factory",
+  "Configuration":"AWD S (DCT)",
+  "Description":"The S is equipped with a turbocharged 2.0 liter engine, sport suspension, and special 18 inch wheels",
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"Turbo",
+  "Off-Road Score":27,
+  "Performance Class":"7",
+  "Population":2500,
+  "Power":300,
+  "PowerPeakRPM":"6250 - 7000",
+  "Propulsion":"ICE",
+  "Top Speed":74.47567605,
+  "Torque":350,
+  "TorquePeakRPM":"4500 - 6050",
+  "Transmission":"DCT",
+  "Value":63500,
+  "Weight":1470,
+  "Weight/Power":4.9,
+  "defaultPaintName1":"Brilliance"
+}

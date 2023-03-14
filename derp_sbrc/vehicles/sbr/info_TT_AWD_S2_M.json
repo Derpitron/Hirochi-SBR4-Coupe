@@ -1,0 +1,44 @@
+{
+  "0-100 km/h":3.8,
+  "0-100 mph":8.9,
+  "0-200 km/h":13.4,
+  "0-300 km/h":46.5,
+  "0-60 mph":3.6,
+  "100-0 km/h":33.6,
+  "100-200 km/h":9.6,
+  "60-0 mph":104.8,
+  "60-100 mph":5.2,
+  "BoundingBox":[
+    [
+      -0.67,
+      -1.11,
+      -0.187
+    ],
+    [
+      1.33,
+      3.08,
+      1.07
+    ]
+  ],
+  "Braking G":1.169,
+  "Config Type":"Factory",
+  "Configuration":"AWD TT S2 (M)",
+  "Description":"An extremely powerful twin turbo setup makes the S2 incredibly fast",
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"Turbo",
+  "Off-Road Score":27,
+  "Performance Class":"12",
+  "Population":200,
+  "Power":454,
+  "PowerPeakRPM":"5800 - 6900",
+  "Propulsion":"ICE",
+  "Top Speed":85.18241524,
+  "Torque":575,
+  "TorquePeakRPM":"4050 - 5500",
+  "Transmission":"Manual",
+  "Value":84000,
+  "Weight":1475,
+  "Weight/Power":3.248898678,
+  "defaultPaintName1":"Tropic"
+}

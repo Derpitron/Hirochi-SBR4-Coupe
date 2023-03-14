@@ -1,0 +1,78 @@
+{
+"sbr_gauges_electro": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"eSBR Gauge Cluster",
+        "value":3250,
+    },
+    "slotType" : "sbr_gauges",
+
+    "controller": [
+        ["fileName"],
+        //["sbrGauges", {"materialName": "@sbr_gauge_screen", "htmlPath": "local://local/vehicles/sbr/gauges_screen/gauges_screen.html", "type":"eSBR"}]
+        ["gauges/genericGauges", {"name":"gauges", }],
+        ["gauges/customModules/environmentData"],
+        ["gauges/customModules/electricMotorData"],
+        ["gauges/customModules/accelerationData"],
+        ["gauges/customModules/navigationData"],
+    ],
+
+    "gauges": {
+        "configuration": {
+            "materialName": "@sbr_gauge_screen"
+            "htmlPath": "local://local/vehicles/sbr/gauges_screen/gauges_screen.html"
+            "displayWidth":1024
+            "displayHeight":512
+            "maxKPH": 260,
+            "speedoMetricSepBig":50,
+            "speedoMetricSepSmall":10,
+            "maxMPH": 160,
+            "speedoImperialSepBig":20,
+            "speedoImperialSepSmall":5,
+        }
+        "displayData": {
+            "electrics": [
+                "signal_L",
+                "signal_R",
+                "lights",
+                "highbeam",
+                "fog",
+                "lowpressure",
+                "lowfuel",
+                "parkingbrake",
+                "checkengine",
+                "gear",
+                "fuel",
+                "wheelspeed",
+                "esc",
+                "escActive",
+                "tcs",
+                "tcsActive",
+                "odometer",
+                "trip"
+            ]
+            "powertrain": [
+                ["deviceName", "property"]
+                //["mainEngine", "outputTorque1"]
+                //["mainEngine", "outputAV1"]
+                //["gearbox", "outputAV1"]
+            ]
+            "customModules": [
+                ["moduleName", "property"]
+                ["electricMotorData", "currentPower"],
+                ["electricMotorData", "remainingRange"],
+                ["electricMotorData", "consumptionGraph"],
+                ["environmentData", "temperatureEnv"]
+                ["accelerationData", "accelerationSmooth"]
+                ["navigationData", ""]
+            ]
+        }
+    }
+
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_gauges_screen", ["sbr_dash"]],
+         ["sbr_screen", ["sbr_dash"]],
+    ],
+},
+}

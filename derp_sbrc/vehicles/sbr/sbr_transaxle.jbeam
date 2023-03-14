@@ -1,0 +1,522 @@
+{
+"sbr_transaxle_6M": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"6-Speed Manual Transaxle",
+        "value":3800,
+    },
+    "slotType" : "sbr_transaxle",
+    "slots": [
+        ["type", "default", "description"],
+        ["sbr_flywheel","sbr_flywheel","Flywheel", {"coreSlot":true}],
+        ["sbr_transfer_case","sbr_transfer_case_RWD", "Transfer Case"],
+        ["sbr_differential_R","sbr_differential_R", "Rear Differential"],
+    ],
+    "powertrain": [
+        ["type", "name", "inputName", "inputIndex"],
+        ["frictionClutch", "clutch", "mainEngine", 1],
+        ["manualGearbox", "gearbox", "clutch", 1],
+    ],
+    "vehicleController": {
+        "calculateOptimalLoadShiftPoints": true,
+        "shiftDownRPMOffsetCoef":1.22,
+        "lowShiftDownRPM":[0,0,0,1400,1600,1500,1500,1500],
+        "lowShiftUpRPM":[0,0,3400,3000,2700,2700,2700],
+        "clutchLaunchStartRPM": 2500,
+        "clutchLaunchTargetRPM": 3000,
+    },
+    "gearbox": {
+        "uiName":"Gearbox",
+        "gearRatios":[-3.21, 0, 3.91, 2.32, 1.61, 1.28, 1.03, 0.78],
+        "friction": 1.19,
+        "dynamicFriction": 0.0011,
+        "torqueLossCoef": 0.0155,
+        "gearboxNode:":["tra1"],
+
+        "gearWhineCoefsInput":  [0.60, 0.00, 0.12, 0.12, 0.12, 0.12, 0.12, 0.12, 0.12, 0.12],
+        "gearWhineCoefsOutput": [0.00, 0.00, 0.24, 0.24, 0.24, 0.24, 0.24, 0.24, 0.24, 0.24],
+        "gearWhineInputEvent": "event:>Vehicle>Transmission>helical_01>twine_in",
+        "gearWhineOutputEvent": "event:>Vehicle>Transmission>helical_01>twine_out",
+
+        //"forwardInputPitchCoef":1
+        //"forwardOutputPitchCoef":1
+        //"reverseInputPitchCoef":0.7
+        //"reverseOutputPitchCoef":0.7
+
+        //"gearWhineInputPitchCoefSmoothing":50
+        //"gearWhineOutputPitchCoefSmoothing":50
+        //"gearWhineInputVolumeCoefSmoothing":10
+        //"gearWhineOutputVolumeCoefSmoothing":10
+
+        //"gearWhineFixedCoefOutput": 0.7
+        //"gearWhineFixedCoefInput": 0.4
+    },
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_transaxle", ["sbr_engine","sbr_transaxle"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //--6 Speed Manual--
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         {"selfCollision":false},
+         {"collision":true},
+         {"group":"sbr_transaxle"},
+         {"nodeWeight":22},
+         ["tra1", 0.0, 0.82, 0.25],
+         {"group":""},
+    ],
+    "beams":[
+        ["id1:", "id2:"],
+        {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        //--TRANSMISSION CONE--
+        {"beamSpring":15001000,"beamDamp":500},
+        {"beamDeform":175000,"beamStrength":"FLT_MAX"},
+        ["tra1","e1r"],
+        ["tra1","e3r"],
+        ["tra1","e1l"],
+        ["tra1","e3l"],
+        {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+},
+"sbr_transaxle_6M_race": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Race 6-Speed Manual Transaxle",
+        "value":8600,
+    },
+    "slotType" : "sbr_transaxle",
+    "slots": [
+        ["type", "default", "description"],
+        ["sbr_flywheel","sbr_flywheel_race","Flywheel", {"coreSlot":true}],
+        ["sbr_transfer_case","sbr_transfer_case_RWD", "Transfer Case"],
+        ["sbr_differential_R","sbr_differential_R", "Rear Differential"],
+    ],
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$gear_R", "range", ":1", "Transmission", 2.95, 0.5, 5, "Reverse Gear Ratio", "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_1", "range", ":1", "Transmission", 3.91, 0.5, 5, "1st Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_2", "range", ":1", "Transmission", 2.32, 0.5, 5, "2nd Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_3", "range", ":1", "Transmission", 1.61, 0.5, 5, "3rd Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_4", "range", ":1", "Transmission", 1.28, 0.5, 5, "4th Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_5", "range", ":1", "Transmission", 1.03, 0.5, 5, "5th Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_6", "range", ":1", "Transmission", 0.78, 0.5, 5, "6th Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+    ],
+    "powertrain": [
+        ["type", "name", "inputName", "inputIndex"],
+        ["frictionClutch", "clutch", "mainEngine", 1],
+        ["manualGearbox", "gearbox", "clutch", 1],
+    ],
+    "vehicleController": {
+        "transmissionShiftDelay":0.13,
+        "calculateOptimalLoadShiftPoints": true,
+        "shiftDownRPMOffsetCoef":1.27,
+        //"aggressionSmoothingDown":0.05
+        "aggressionHoldOffThrottleDelay":3,
+        //"lowShiftDownRPM":[0,0,0,1500,1700,1600,1600,1600],
+        //"lowShiftUpRPM":[0,0,3600,3200,2900,2900,2900],
+        "lowShiftDownRPM":[0,0,0,1900,2600,2600,2600,2600],
+        "lowShiftUpRPM":[0,0,4300,4200,4050,3850,3750],
+        //"wheelSlipUpThreshold":100,
+        "clutchLaunchStartRPM": 3500,
+        "clutchLaunchTargetRPM": 4000,
+    },
+    "gearbox": {
+        "uiName":"Gearbox",
+        "gearRatios":["$=-$gear_R", 0, "$gear_1", "$gear_2", "$gear_3", "$gear_4", "$gear_5", "$gear_6"],
+        "friction": 1.47,
+        "dynamicFriction": 0.0015,
+        "torqueLossCoef": 0.013,
+        "gearboxNode:":["tra1"],
+
+        "gearWhineCoefsInput":  [0.66, 0.00, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33],
+        "gearWhineCoefsOutput": [0.00, 0.00, 0.66, 0.66, 0.66, 0.66, 0.66, 0.66, 0.66, 0.66],
+        "gearWhineInputEvent": "event:>Vehicle>Transmission>straight_01>twine_in_race",
+        "gearWhineOutputEvent": "event:>Vehicle>Transmission>straight_01>twine_out_race",
+
+        //"forwardInputPitchCoef":1
+        //"forwardOutputPitchCoef":1
+        //"reverseInputPitchCoef":0.7
+        //"reverseOutputPitchCoef":0.7
+
+        //"gearWhineInputPitchCoefSmoothing":50
+        //"gearWhineOutputPitchCoefSmoothing":50
+        //"gearWhineInputVolumeCoefSmoothing":10
+        //"gearWhineOutputVolumeCoefSmoothing":10
+
+        //"gearWhineFixedCoefOutput": 0.7
+        //"gearWhineFixedCoefInput": 0.4
+    },
+    "clutch": {
+        "clutchFreePlay":0.2,
+    },
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_transaxle", ["sbr_engine","sbr_transaxle"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //--6 Speed Manual--
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         {"selfCollision":false},
+         {"collision":true},
+         {"group":"sbr_transaxle"},
+         {"nodeWeight":22},
+         ["tra1", 0.0, 0.82, 0.25],
+         {"group":""},
+    ],
+    "beams":[
+        ["id1:", "id2:"],
+        {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        //--TRANSMISSION CONE--
+        {"beamSpring":15001000,"beamDamp":500},
+        {"beamDeform":175000,"beamStrength":"FLT_MAX"},
+        ["tra1","e1r"],
+        ["tra1","e3r"],
+        ["tra1","e1l"],
+        ["tra1","e3l"],
+        {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+},
+"sbr_transaxle_7DCT": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"7-Speed Dual-Clutch Transaxle",
+        "value":6300,
+    },
+    "slotType" : "sbr_transaxle",
+    "slots": [
+        ["type", "default", "description"],
+        ["sbr_transfer_case","sbr_transfer_case_RWD", "Transfer Case"],
+        ["sbr_differential_R","sbr_differential_R", "Rear Differential"],
+    ],
+    "powertrain": [
+        ["type", "name", "inputName", "inputIndex"],
+        ["dctGearbox", "gearbox", "mainEngine", 1],
+    ],
+    "gearbox": {
+        "uiName":"Gearbox",
+        "gearRatios":[-3.55, 0, 3.91, 2.29, 1.65, 1.30, 1.08, 0.88, 0.67],
+        "friction": 1.24,
+        "dynamicFriction": 0.0012,
+        "torqueLossCoef": 0.0155,
+        "parkLockTorque":2000,
+        "additionalEngineInertia":0.05,
+        "gearboxNode:":["tra1"],
+
+        "gearWhineCoefsInput":  [0.60, 0.00, 0.13, 0.13, 0.13, 0.13, 0.13, 0.13, 0.13, 0.13],
+        "gearWhineCoefsOutput": [0.00, 0.00, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27, 0.27],,
+        "gearWhineInputEvent": "event:>Vehicle>Transmission>helical_01>twine_in_tuned",
+        "gearWhineOutputEvent": "event:>Vehicle>Transmission>helical_01>twine_out_tuned",
+    },
+    "vehicleController": {
+        "automaticModes":"PRNDSM",
+        "calculateOptimalLoadShiftPoints": true,
+        "shiftDownRPMOffsetCoef":1.2,
+        //"aggressionSmoothingUp":2
+        //"aggressionSmoothingDown":0.06
+        "lowShiftDownRPM":[0,0,0,1600,1600,1500,1400,1300,1300],
+        "lowShiftUpRPM":[0,0,2800,2600,2400,2200,2000,2000],
+        "clutchLaunchStartRPM": 2500,
+        "clutchLaunchTargetRPM": 3000,
+    },
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_transaxle", ["sbr_engine","sbr_transmission"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         {"selfCollision":false},
+         {"collision":true},
+         {"group":"sbr_transaxle"},
+         {"nodeWeight":30},
+         ["tra1", 0.0, 0.82, 0.25],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          //--TRANSMISSION CONE--
+          {"beamSpring":15001000,"beamDamp":500},
+          {"beamDeform":175000,"beamStrength":"FLT_MAX"},
+          ["tra1","e1r"],
+          ["tra1","e3r"],
+          ["tra1","e1l"],
+          ["tra1","e3l"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+},
+"sbr_transaxle_7DCT_race": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Race 7-Speed Dual-Clutch Transaxle",
+        "value":11000,
+    },
+    "slotType" : "sbr_transaxle",
+    "slots": [
+        ["type", "default", "description"],
+        ["sbr_transfer_case","sbr_transfer_case_RWD", "Transfer Case"],
+        ["sbr_differential_R","sbr_differential_R", "Rear Differential"],
+    ],
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$gear_R", "range", ":1", "Transmission", 2.95, 0.5, 5, "Reverse Gear Ratio", "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_1", "range", ":1", "Transmission", 3.91, 0.5, 5, "1st Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_2", "range", ":1", "Transmission", 2.29, 0.5, 5, "2nd Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_3", "range", ":1", "Transmission", 1.65, 0.5, 5, "3rd Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_4", "range", ":1", "Transmission", 1.30, 0.5, 5, "4th Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_5", "range", ":1", "Transmission", 1.08, 0.5, 5, "5th Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_6", "range", ":1", "Transmission", 0.88, 0.5, 5, "6th Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_7", "range", ":1", "Transmission", 0.62, 0.5, 5, "7th Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+    ],
+    "powertrain": [
+        ["type", "name", "inputName", "inputIndex"],
+        ["dctGearbox", "gearbox", "mainEngine", 1],
+    ],
+    "gearbox": {
+        "uiName":"Gearbox",
+        "gearRatios":["$=-$gear_R", 0, "$gear_1", "$gear_2", "$gear_3", "$gear_4", "$gear_5", "$gear_6", "$gear_7"],
+        "parkLockTorque":2000,
+        "friction": 1.56,
+        "dynamicFriction": 0.0015,
+        "torqueLossCoef": 0.0145,
+        "additionalEngineInertia":0.02,
+        "gearboxNode:":["tra1"],
+
+        "gearWhineCoefsInput":  [0.66, 0.00, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33],
+        "gearWhineCoefsOutput": [0.00, 0.00, 0.66, 0.66, 0.66, 0.66, 0.66, 0.66, 0.66, 0.66],
+        "gearWhineInputEvent": "event:>Vehicle>Transmission>helical_01>twine_in_race",
+        "gearWhineOutputEvent": "event:>Vehicle>Transmission>helical_01>twine_out_race",
+    },
+    "vehicleController": {
+        "automaticModes":"PRNDM",
+        "calculateOptimalLoadShiftPoints": true,
+        "shiftDownRPMOffsetCoef":1.27,
+        //"aggressionSmoothingUp":2
+        //"aggressionSmoothingDown":0.05
+        "aggressionHoldOffThrottleDelay":3,
+        //"lowShiftDownRPM":[0,0,0,1700,1800,1700,1600,1600,1600],
+        //"lowShiftUpRPM":[0,0,3600,3400,3000,2900,2900,2900],
+        "lowShiftDownRPM":[0,0,0,2300,2600,2600,2600,2600,2600],
+        "lowShiftUpRPM":[0,0,4200,4200,4050,3950,3750,3750],
+        //"wheelSlipUpThreshold":100,
+        "clutchLaunchStartRPM": 3500,
+        "clutchLaunchTargetRPM": 4000,
+        "autoDownShiftInM": false,
+    },
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_transaxle", ["sbr_engine","sbr_transmission"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         {"selfCollision":false},
+         {"collision":true},
+         {"group":"sbr_transaxle"},
+         {"nodeWeight":32},
+         ["tra1", 0.0, 0.82, 0.25],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          //--TRANSMISSION CONE--
+          {"beamSpring":15001000,"beamDamp":500},
+          {"beamDeform":175000,"beamStrength":"FLT_MAX"},
+          ["tra1","e1r"],
+          ["tra1","e3r"],
+          ["tra1","e1l"],
+          ["tra1","e3l"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+},
+"sbr_transaxle_6M_SQ": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Race 6-Speed Sequential Transaxle",
+        "value":18000,
+    },
+    "slotType" : "sbr_transaxle",
+    "slots": [
+        ["type", "default", "description"],
+        ["sbr_flywheel","sbr_flywheel_race","Flywheel", {"coreSlot":true}],
+        ["sbr_transfer_case","sbr_transfer_case_RWD", "Transfer Case"],
+        ["sbr_differential_R","sbr_differential_R", "Rear Differential"],
+    ],
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$gear_R", "range", ":1", "Transmission", 2.95, 0.5, 5, "Reverse Gear Ratio", "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_1", "range", ":1", "Transmission", 3.91, 0.5, 5, "1st Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_2", "range", ":1", "Transmission", 2.32, 0.5, 5, "2nd Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_3", "range", ":1", "Transmission", 1.61, 0.5, 5, "3rd Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_4", "range", ":1", "Transmission", 1.28, 0.5, 5, "4th Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_5", "range", ":1", "Transmission", 1.05, 0.5, 5, "5th Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+        ["$gear_6", "range", ":1", "Transmission", 0.84, 0.5, 5, "6th Gear Ratio",     "Torque multiplication ratio", {"stepDis":0.01}],
+    ],
+    "powertrain": [
+        ["type", "name", "inputName", "inputIndex"],
+        ["frictionClutch", "clutch", "mainEngine", 1],
+        ["sequentialGearbox", "gearbox", "clutch", 1],
+    ],
+    "gearbox": {
+        "uiName":"Gearbox",
+        "gearRatios":["$=-$gear_R", 0, "$gear_1", "$gear_2", "$gear_3", "$gear_4", "$gear_5", "$gear_6"],
+        "friction": 1.48,
+        "dynamicFriction": 0.0014,
+        "torqueLossCoef": 0.012,
+        "gearboxNode:":["tra1"],
+
+        "gearWhineCoefsInput":  [0.66, 0.00, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33, 0.33],
+        "gearWhineCoefsOutput": [0.00, 0.00, 0.66, 0.66, 0.66, 0.66, 0.66, 0.66, 0.66, 0.66],
+        "gearWhineInputEvent": "event:>Vehicle>Transmission>straight_01>twine_in_race_sq",
+        "gearWhineOutputEvent": "event:>Vehicle>Transmission>straight_01>twine_out_race_sq",
+
+        //"forwardInputPitchCoef":1
+        //"forwardOutputPitchCoef":1
+        //"reverseInputPitchCoef":0.7
+        //"reverseOutputPitchCoef":0.7
+
+        //"gearWhineInputPitchCoefSmoothing":50
+        //"gearWhineOutputPitchCoefSmoothing":50
+        //"gearWhineInputVolumeCoefSmoothing":10
+        //"gearWhineOutputVolumeCoefSmoothing":10
+
+        //"gearWhineFixedCoefOutput": 0.7
+        //"gearWhineFixedCoefInput": 0.4
+    },
+    "clutch": {
+        "clutchFreePlay":0.5,
+        "lockSpringCoef":0.3,
+    },
+    "vehicleController": {
+        "automaticModes":"PRNDM",
+        "calculateOptimalLoadShiftPoints": true,
+        "shiftDownRPMOffsetCoef":1.27,
+        //"aggressionSmoothingUp":2
+        //"aggressionSmoothingDown":0.05
+        "aggressionHoldOffThrottleDelay":3,
+        //"lowShiftDownRPM":[0,0,0,1700,1800,1700,1600,1600,1600],
+        //"lowShiftUpRPM":[0,0,3600,3400,3000,2900,2900,2900],
+        "lowShiftDownRPM":[0,0,0,2300,2600,2600,2600,2600],
+        "lowShiftUpRPM":[0,0,4200,4200,4050,3950,3750],
+        //"wheelSlipUpThreshold":100,
+        "clutchLaunchStartRPM": 3500,
+        "clutchLaunchTargetRPM": 4000,
+    },
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_transaxle", ["sbr_engine","sbr_transmission"]],
+    ],
+     "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         {"selfCollision":false},
+         {"collision":true},
+         {"group":"sbr_transaxle"},
+         {"nodeWeight":32},
+         ["tra1", 0.0, 0.82, 0.25],
+         {"group":""},
+    ],
+    "beams":[
+        ["id1:", "id2:"],
+        {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        //--TRANSMISSION CONE--
+        {"beamSpring":15001000,"beamDamp":500},
+        {"beamDeform":175000,"beamStrength":"FLT_MAX"},
+        ["tra1","e1r"],
+        ["tra1","e3r"],
+        ["tra1","e1l"],
+        ["tra1","e3l"],
+        {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+},
+"sbr_flywheel": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Flywheel",
+        "value":150,
+    },
+    "slotType" : "sbr_flywheel",
+    "clutch": {
+        "uiName":"Clutch",
+        "additionalEngineInertia":0.07,
+        "clutchMass":5.25,
+    },
+},
+"sbr_flywheel_race": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Ultra Light Flywheel",
+        "value":900,
+    },
+    "slotType" : "sbr_flywheel",
+    "clutch": {
+        "uiName":"Clutch",
+        "additionalEngineInertia":0.02,
+        "clutchMass":3.8,
+    },
+},
+"sbr_flywheel_light": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Lightened Flywheel",
+        "value":400,
+    },
+    "slotType" : "sbr_flywheel",
+    "clutch": {
+        "uiName":"Clutch",
+        "additionalEngineInertia":0.04,
+        "clutchMass":4.6,
+    },
+},
+"sbr_transfer_case_RWD": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"RWD Transfer Case",
+        "value":800,
+    },
+    "slotType" : "sbr_transfer_case",
+    "powertrain" : [
+        ["type", "name", "inputName", "inputIndex"],
+        ["shaft", "transfercase", "gearbox", 1, {"friction":0.4, "dynamicFriction":0.00035, "uiName":"Rear Output Shaft"}],
+    ],
+},
+"sbr_transfer_case_AWD": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"AWD Transfer Case",
+        "value":3800,
+    },
+    "slotType" : "sbr_transfer_case",
+    "powertrain" : [
+        ["type", "name", "inputName", "inputIndex"],
+        ["differential", "transfercase", "gearbox", 1, {"diffType":"open", "diffTorqueSplit":0.75, "friction":0.5, "dynamicFriction":0.0004, "torqueLossCoef":0.012, "uiName":"Center Differential","defaultVirtualInertia":0.1,"speedLimitCoef":0.1}],
+    ],
+},
+"sbr_transfer_case_AWD_race": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Race AWD Transfer Case",
+        "value":4500,
+    },
+    "slotType" : "sbr_transfer_case",
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$difftorquesplit_C", "range", "", "Differentials", 0.70, 0.6, 0.85, "Base Torque Split", "Percent torque to rear wheels", {"minDis":60, "maxDis":85, "stepDis":1, "subCategory":"Center"}],
+        ["$lsdpreload_C", "range", "N/m", "Differentials", 50, 0, 500, "Pre-load Torque", "Initial cross torque between front and rear wheels", {"subCategory":"Center"}],
+        ["$lsdlockcoef_C", "range", "", "Differentials", 0.125, 0, 0.5, "Power Lock Rate", "Additional locking torque proportional to engine torque", {"minDis":0, "maxDis":100,"subCategory":"Center"}],
+        ["$lsdlockcoefrev_C", "range", "", "Differentials", 0.02, 0, 0.5, "Coast Lock Rate" , "Additional locking torque proportional to engine braking", {"minDis":0, "maxDis":100,"subCategory":"Center"}],
+    ],
+    "powertrain" : [
+        ["type", "name", "inputName", "inputIndex"],
+        ["differential", "transfercase", "gearbox", 1, {"diffType":"lsd", "lsdPreload":"$lsdpreload_C", "lsdLockCoef":"$lsdlockcoef_C", "lsdRevLockCoef":"$lsdlockcoefrev_C", "diffTorqueSplit":"$difftorquesplit_C", "friction":0.65, "dynamicFriction":0.00044, "torqueLossCoef":0.0105, "uiName":"Center Differential","defaultVirtualInertia":0.1,"speedLimitCoef":0.1}],
+    ],
+},
+}

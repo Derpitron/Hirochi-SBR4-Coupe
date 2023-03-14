@@ -1,0 +1,151 @@
+{
+"sbr_lettering_base": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Base Tailgate Lettering",
+        "value":20,
+    },
+    "slotType" : "sbr_lettering_tailgate",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_lettering_tailgate", ["sbr_tailgate"]],
+    ],
+},
+"sbr_lettering_AWD_TT_S2": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"AWD TT S2 Tailgate Lettering",
+        "value":50,
+    },
+    "slotType" : "sbr_lettering_tailgate",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_lettering_tailgate", ["sbr_tailgate"]],
+         ["sbr_lettering_AWD", ["sbr_tailgate"]],
+         ["sbr_lettering_TT", ["sbr_tailgate"]],
+         ["sbr_lettering_S2", ["sbr_tailgate"]],
+    ],
+},
+"sbr_lettering_AWD_TT_S": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"AWD TT S Tailgate Lettering",
+        "value":45,
+    },
+    "slotType" : "sbr_lettering_tailgate",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_lettering_tailgate", ["sbr_tailgate"]],
+         ["sbr_lettering_AWD", ["sbr_tailgate"]],
+         ["sbr_lettering_TT", ["sbr_tailgate"]],
+         ["sbr_lettering_S", ["sbr_tailgate"]],
+    ],
+},
+"sbr_lettering_AWD": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"AWD Tailgate Lettering",
+        "value":30,
+    },
+    "slotType" : "sbr_lettering_tailgate",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_lettering_tailgate", ["sbr_tailgate"]],
+         ["sbr_lettering_AWD", ["sbr_tailgate"]],
+    ],
+},
+"sbr_lettering_S": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"S Tailgate Lettering",
+        "value":30,
+    },
+    "slotType" : "sbr_lettering_tailgate",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_lettering_tailgate", ["sbr_tailgate"]],
+         ["sbr_lettering_S", ["sbr_tailgate"]],
+    ],
+},
+"sbr_lettering_AWD_S": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"AWD S Tailgate Lettering",
+        "value":35,
+    },
+    "slotType" : "sbr_lettering_tailgate",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_lettering_tailgate", ["sbr_tailgate"]],
+         ["sbr_lettering_AWD", ["sbr_tailgate"]],
+         ["sbr_lettering_S", ["sbr_tailgate"]],
+    ],
+},
+"sbr_lettering_TT_S": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"TT S Tailgate Lettering",
+        "value":40,
+    },
+    "slotType" : "sbr_lettering_tailgate",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_lettering_tailgate", ["sbr_tailgate"]],
+         ["sbr_lettering_TT", ["sbr_tailgate"]],
+         ["sbr_lettering_S", ["sbr_tailgate"]],
+    ],
+},
+"sbr_lettering_TT_S2": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"TT S2 Tailgate Lettering",
+        "value":45,
+    },
+    "slotType" : "sbr_lettering_tailgate",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_lettering_tailgate", ["sbr_tailgate"]],
+         ["sbr_lettering_TT", ["sbr_tailgate"]],
+         ["sbr_lettering_S2", ["sbr_tailgate"]],
+    ],
+},
+"sbr_lettering_esbr_300": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"eSBR 300 Tailgate Lettering",
+        "value":40,
+    },
+    "slotType" : "sbr_lettering_tailgate",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_elettering_tailgate", ["sbr_tailgate"]],
+         ["sbr_elettering_tailgate_300", ["sbr_tailgate"]],
+    ],
+},
+"sbr_lettering_esbr_500": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"eSBR 500 Tailgate Lettering",
+        "value":40,
+    },
+    "slotType" : "sbr_lettering_tailgate",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_elettering_tailgate", ["sbr_tailgate"]],
+         ["sbr_elettering_tailgate_500", ["sbr_tailgate"]],
+    ],
+},
+"sbr_lettering_esbr_800": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"eSBR 800 Tailgate Lettering",
+        "value":40,
+    },
+    "slotType" : "sbr_lettering_tailgate",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_elettering_tailgate", ["sbr_tailgate"]],
+         ["sbr_elettering_tailgate_800", ["sbr_tailgate"]],
+    ],
+},
+}

@@ -1,0 +1,39 @@
+<html ng-app="gaugesScreen">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="/ui/lib/ext/angular/angular.js"></script>
+  <script src="/ui/lib/ext/hu.js"></script>
+  <script src="gauges_screen.js"></script>
+  <link type="text/css" rel="stylesheet" href="gauges_screen.css">
+</head>
+
+<body ng-controller="GaugesScreenController as gaugeCtrl" style="background-color: rgba(0,32,69,0.5)">
+  <!-- <div class="gauge">
+    <div class="center-screen">
+      <div class="speed">
+        <div class="speedVal">{{data.speedVal}}</div>
+        <div class="speedUnit">{{data.speedUnit}}</div>
+      </div>
+      <div class="temp">{{data.temp}}</div>
+      <div class="time">{{data.time}}</div>
+      <div class="consumption">
+        <div class="consumptionVal">{{data.consumptionVal}}</div>
+        <div class="consumptionUnit">{{data.consumptionUnit}}</div>
+      </div>
+    </div>
+    <div class="gear-screen">
+      <div >{{data.gear}}</div>
+    </div> -->
+
+    <div id="overflow-wrap" style="position: absolute; left: 270px; top: 0px; width: 100%; height: 100%;">
+      <bng-map-render-uncompressed map="gaugeCtrl.mapData" color="white" drivability="false" style="overflow: visible;"></bng-map-render-uncompressed>
+    </div>
+
+    <div style="left: 256px; top: 128px; transform: scale(2); position: absolute; opacity: 1" ng-include="'gauges_screen.svg'" onload="onSVGLoaded()"></div>
+    <canvas
+    style="stroke:#000000;stroke-width:0.06088977;position: fixed;width: 148px;height: 126.533px;top: 239px;left: 149px;transform: translate(-32px, 15px) skew(-26deg, 0deg) rotate(-9deg);"
+    id="consum_graph_canvas"/>
+</body>
+
+</html>

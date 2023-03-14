@@ -1,0 +1,43 @@
+{
+  "0-100 km/h":5.9,
+  "0-100 mph":14.2,
+  "0-200 km/h":25.3,
+  "0-60 mph":5.5,
+  "100-0 km/h":35.1,
+  "100-200 km/h":19.4,
+  "60-0 mph":106.9,
+  "60-100 mph":8.6,
+  "BoundingBox":[
+    [
+      -0.67,
+      -1.11,
+      -0.182
+    ],
+    [
+      1.33,
+      3.08,
+      1.07
+    ]
+  ],
+  "Braking G":1.119,
+  "Config Type":"Factory",
+  "Configuration":"RWD Base (DCT)",
+  "Description":"Base RWD model with a 2.5 liter flat 4",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":27,
+  "Performance Class":"6",
+  "Population":3000,
+  "Power":209,
+  "PowerPeakRPM":"5900 - 7000",
+  "Propulsion":"ICE",
+  "Top Speed":64.90789738,
+  "Torque":260,
+  "TorquePeakRPM":"3750 - 5450",
+  "Transmission":"DCT",
+  "Value":41000,
+  "Weight":1435,
+  "Weight/Power":6.866028708,
+  "defaultPaintName1":"Technetium"
+}

@@ -1,0 +1,42 @@
+{
+  "0-100 km/h":2.4,
+  "0-100 mph":4.5,
+  "0-200 km/h":6.6,
+  "0-60 mph":2.4,
+  "100-0 km/h":32.5,
+  "100-200 km/h":4.1,
+  "60-0 mph":98.4,
+  "60-100 mph":2,
+  "BoundingBox":[
+    [
+      -0.67,
+      -1.08,
+      -0.187
+    ],
+    [
+      1.33,
+      3.12,
+      1.07
+    ]
+  ],
+  "Braking G":1.208,
+  "Config Type":"Factory",
+  "Configuration":"eSBR 800",
+  "Description":"High performance dual motor electric variant",
+  "Drivetrain":"4x4",
+  "Fuel Type":"Battery",
+  "Off-Road Score":27,
+  "Performance Class":"12",
+  "Population":200,
+  "Power":807,
+  "PowerPeakRPM":"6800 - 9700",
+  "Propulsion":"Electric",
+  "Top Speed":71.40302267,
+  "Torque":950,
+  "TorquePeakRPM":"0 - 5600",
+  "Transmission":"Other",
+  "Value":125000,
+  "Weight":1655,
+  "Weight/Power":2.050805452,
+  "defaultPaintName1":"Lime"
+}

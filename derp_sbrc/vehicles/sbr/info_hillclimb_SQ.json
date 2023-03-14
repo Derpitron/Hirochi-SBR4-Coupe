@@ -1,0 +1,45 @@
+{
+  "0-100 km/h":2.8,
+  "0-100 mph":5.5,
+  "0-200 km/h":8.3,
+  "0-60 mph":2.7,
+  "100-0 km/h":29,
+  "100-200 km/h":5.5,
+  "60-0 mph":86.9,
+  "60-100 mph":2.8,
+  "BoundingBox":[
+    [
+      -0.67,
+      -1.4,
+      -0.192
+    ],
+    [
+      1.33,
+      3.38,
+      1.18
+    ]
+  ],
+  "Braking G":1.356,
+  "Config Type":"Race",
+  "Configuration":"Hillclimb - Asphalt (Sequential)",
+  "Description":"Extreme aero and turbocharged horsepower push this car to the performance limits of a production chassis",
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"Turbo",
+  "Off-Road Score":21,
+  "Performance Class":"13",
+  "Population":5,
+  "Power":811,
+  "PowerPeakRPM":7700,
+  "Propulsion":"ICE",
+  "Top Speed":76.58558161,
+  "Torque":740,
+  "TorquePeakRPM":"6800 - 8000",
+  "Transmission":"Sequential",
+  "Value":136000,
+  "Weight":1480,
+  "Weight/Power":1.824907522,
+  "defaultPaintName1":"Brilliance",
+  "defaultPaintName2":"Incendiary",
+  "defaultPaintName3":"Carbon"
+}

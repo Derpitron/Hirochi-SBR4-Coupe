@@ -1,0 +1,42 @@
+{
+  "0-100 km/h":2.9,
+  "0-100 mph":5.9,
+  "0-200 km/h":9.6,
+  "0-60 mph":2.8,
+  "100-0 km/h":32.9,
+  "100-200 km/h":6.7,
+  "60-0 mph":102.2,
+  "60-100 mph":3.1,
+  "BoundingBox":[
+    [
+      -0.67,
+      -1.08,
+      -0.187
+    ],
+    [
+      1.33,
+      3.12,
+      1.07
+    ]
+  ],
+  "Braking G":1.196,
+  "Config Type":"Factory",
+  "Configuration":"eSBR 500",
+  "Description":"Mid model dual motor electric variant",
+  "Drivetrain":"4x4",
+  "Fuel Type":"Battery",
+  "Off-Road Score":27,
+  "Performance Class":"12",
+  "Population":800,
+  "Power":528,
+  "PowerPeakRPM":"5850 - 9100",
+  "Propulsion":"Electric",
+  "Top Speed":71.22393658,
+  "Torque":745,
+  "TorquePeakRPM":"0 - 4350",
+  "Transmission":"Other",
+  "Value":105000,
+  "Weight":1615,
+  "Weight/Power":3.058712121,
+  "defaultPaintName1":"Ghrome"
+}

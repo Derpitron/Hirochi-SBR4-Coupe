@@ -1,0 +1,43 @@
+{
+  "0-100 km/h":4,
+  "0-100 mph":8.8,
+  "0-200 km/h":13.8,
+  "0-60 mph":3.8,
+  "100-0 km/h":34.7,
+  "100-200 km/h":9.8,
+  "60-0 mph":105.3,
+  "60-100 mph":5,
+  "BoundingBox":[
+    [
+      -0.67,
+      -1.11,
+      -0.187
+    ],
+    [
+      1.33,
+      3.08,
+      1.07
+    ]
+  ],
+  "Braking G":1.134,
+  "Config Type":"Factory",
+  "Configuration":"AWD TT S (DCT)",
+  "Description":"The TT S is equipped with a powerful 2.5 liter twin turbo F4 engine, sport suspension, and special 18 inch wheels",
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"Turbo",
+  "Off-Road Score":27,
+  "Performance Class":"10",
+  "Population":1000,
+  "Power":350,
+  "PowerPeakRPM":"5950 - 7000",
+  "Propulsion":"ICE",
+  "Top Speed":76.10776448,
+  "Torque":420,
+  "TorquePeakRPM":"4400 - 6100",
+  "Transmission":"DCT",
+  "Value":75500,
+  "Weight":1475,
+  "Weight/Power":4.214285714,
+  "defaultPaintName1":"Caustic"
+}

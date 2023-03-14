@@ -1,0 +1,43 @@
+{
+  "0-100 km/h":5.6,
+  "0-100 mph":12.5,
+  "0-200 km/h":19.8,
+  "0-60 mph":5.1,
+  "100-0 km/h":35.1,
+  "100-200 km/h":14.2,
+  "60-0 mph":106.8,
+  "60-100 mph":7.4,
+  "BoundingBox":[
+    [
+      -0.67,
+      -1.11,
+      -0.187
+    ],
+    [
+      1.33,
+      3.08,
+      1.07
+    ]
+  ],
+  "Braking G":1.12,
+  "Config Type":"Factory",
+  "Configuration":"RWD S (M)",
+  "Description":"The S is equipped with a turbocharged 2.0 liter engine, sport suspension, and special 18 inch wheels",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"Turbo",
+  "Off-Road Score":28,
+  "Performance Class":"7",
+  "Population":1500,
+  "Power":300,
+  "PowerPeakRPM":"6250 - 7000",
+  "Propulsion":"ICE",
+  "Top Speed":72.92752421,
+  "Torque":350,
+  "TorquePeakRPM":"4500 - 6050",
+  "Transmission":"Manual",
+  "Value":55000,
+  "Weight":1440,
+  "Weight/Power":4.8,
+  "defaultPaintName1":"Scarlet"
+}

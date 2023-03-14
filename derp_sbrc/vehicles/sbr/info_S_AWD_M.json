@@ -1,0 +1,43 @@
+{
+  "0-100 km/h":5.1,
+  "0-100 mph":12.6,
+  "0-200 km/h":20.2,
+  "0-60 mph":4.9,
+  "100-0 km/h":35.4,
+  "100-200 km/h":15,
+  "60-0 mph":107.6,
+  "60-100 mph":7.6,
+  "BoundingBox":[
+    [
+      -0.67,
+      -1.11,
+      -0.187
+    ],
+    [
+      1.33,
+      3.08,
+      1.07
+    ]
+  ],
+  "Braking G":1.111,
+  "Config Type":"Factory",
+  "Configuration":"AWD S (M)",
+  "Description":"The S is equipped with a turbocharged 2.0 liter engine, sport suspension, and special 18 inch wheels",
+  "Drivetrain":"AWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"Turbo",
+  "Off-Road Score":27,
+  "Performance Class":"7",
+  "Population":1500,
+  "Power":300,
+  "PowerPeakRPM":"6250 - 7000",
+  "Propulsion":"ICE",
+  "Top Speed":72.33503772,
+  "Torque":350,
+  "TorquePeakRPM":"4500 - 6050",
+  "Transmission":"Manual",
+  "Value":62000,
+  "Weight":1465,
+  "Weight/Power":4.883333333,
+  "defaultPaintName1":"Brilliance"
+}

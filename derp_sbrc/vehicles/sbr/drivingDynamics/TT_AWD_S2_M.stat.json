@@ -1,0 +1,12 @@
+{
+  "vehicleData":{
+    "cornerWheels":[
+      "FR",
+      "FL",
+      "RR",
+      "RL"
+    ],
+    "skewStiffnessFront":127000,
+    "skewStiffnessRear":224000
+  }
+}

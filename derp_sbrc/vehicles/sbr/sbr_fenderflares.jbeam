@@ -1,0 +1,95 @@
+{
+"sbr_fenderflare_FR": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Turbo Rabbit Front Right Fender Flare",
+        "value":400,
+    },
+    "slotType" : "sbr_fenderflare_FR",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_fenderflare_FR", ["sbr_fender_R"]],
+         ["sbr_bumperflare_FR", ["sbr_bumper_F"]],
+    ],
+    "slots": [
+        ["type", "default", "description"],
+        ["sbr_lip_FR","","Front Right Lip"],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //redefine nodes and add weight
+         {"nodeMaterial":"|NM_METAL"},
+         {"frictionCoef":0.5},
+         {"collision":true},
+         {"selfCollision":true},
+         {"group":"sbr_fender_R"},
+         {"nodeWeight":1.3},
+         ["fe5r",-0.92, -1.24, 0.68],
+         ["fe6r",-0.88, -1.56, 0.57],
+         {"group":""},
+    ],
+
+},
+"sbr_fenderflare_FL": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Turbo Rabbit Front Left Fender Flare",
+        "value":400,
+    },
+    "slotType" : "sbr_fenderflare_FL",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_fenderflare_FL", ["sbr_fender_L"]],
+         ["sbr_bumperflare_FL", ["sbr_bumper_F"]],
+    ],
+    "slots": [
+        ["type", "default", "description"],
+        ["sbr_lip_FL","","Front Left Lip"],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //redefine nodes and add weight
+         {"nodeMaterial":"|NM_METAL"},
+         {"frictionCoef":0.5},
+         {"collision":true},
+         {"selfCollision":true},
+         {"group":"sbr_fender_L"},
+         {"nodeWeight":1.3},
+         ["fe5l", 0.92, -1.24, 0.68],
+         ["fe6l", 0.88, -1.56, 0.57],
+         {"group":""},
+    ],
+
+},
+"sbr_fenderflare_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Turbo Rabbit Rear Fender Flares",
+        "value":800,
+    },
+    "slotType" : "sbr_fenderflare_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_fenderflare_R", ["sbr_body"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         {"collision":true},
+         {"selfCollision":true},
+         {"group":"sbr_body"},
+         //quarter panel
+         {"nodeWeight":2.0},
+         {"group":"sbr_body"},
+         ["q8r", -0.94, 0.93, 0.50],
+         ["q8l", 0.94, 0.93, 0.50],
+         ["q9r", -0.95, 1.24, 0.65],
+         ["q9l", 0.95, 1.24, 0.65],
+         ["q10r", -0.88, 1.56, 0.48],
+         ["q10l", 0.88, 1.56, 0.48],
+         {"group":""},
+    ],
+
+},
+}

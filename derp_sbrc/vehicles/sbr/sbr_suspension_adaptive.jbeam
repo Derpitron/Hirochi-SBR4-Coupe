@@ -1,0 +1,244 @@
+{
+"sbr_coilover_F_adaptive": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"S2R Adaptive Front Coilovers",
+        "value":3000,
+    },
+    "slotType" : "sbr_coilover_F",
+
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_coilover_F", ["sbr_shockbottom_F","sbr_shocktop_F"]],
+    ],
+    "controller": [
+        ["fileName"],
+        ["drivingDynamics/actuators/adaptiveDampers" {"name":"adaptiveFrontDamper", "dampBeamNames":["shock_FR", "shock_FL"]}]
+    ],
+    "adaptiveFrontDamper": {
+        "modes": [
+            ["name",    "beamDampCoef", "beamDampFastCoef", "beamDampReboundCoef", "beamDampReboundFastCoef","beamDampVelocitySplitCoef"]
+            ["soft",    0.65,           1,                  0.6,                   1,                        0.7]
+            ["regular", 1,              1,                  1,                     1,                        1]
+            ["hard",    1.35,           1,                  1.26,                  1,                        1.2]
+        ]
+    }
+    "beams": [
+          ["id1:", "id2:"],
+          //front springs
+          {"beamType":"|NORMAL"},
+          {"beamDeform":20000,"beamStrength":200000},
+          {"beamSpring":95000,"beamDamp":0},
+          ["fh2r","fs1r", {"precompressionRange":0.033,
+              "soundFile":"event:>Vehicle>Suspension>car_modn_med_01>spring_compress_01","colorFactor":0.9,"attackFactor":10,"volumeFactor":2.6,"decayFactor":7,"noiseFactor":0.01,"pitchFactor":0.4,"maxStress":1600}],
+          ["fh2l","fs1l", {"precompressionRange":0.033,
+              "soundFile":"event:>Vehicle>Suspension>car_modn_med_01>spring_compress_01","colorFactor":0.9,"attackFactor":10,"volumeFactor":2.6,"decayFactor":7,"noiseFactor":0.01,"pitchFactor":0.4,"maxStress":1600}],
+          //damper
+          {"beamPrecompression":1, "beamType":"|BOUNDED","beamLongBound":1, "beamShortBound":1},
+          {"beamSpring":0,"beamDamp":5800},
+          {"beamLimitSpring":0,"beamLimitDamp":0},
+          ["fh1r","fs1r", {"name":"shock_FR","beamDampFast":1933,"beamDampRebound":7800,"beamDampReboundFast":2600,"beamDampVelocitySplit":0.15,"dampCutoffHz":500}],
+          ["fh1l","fs1l", {"name":"shock_FL","beamDampFast":1933,"beamDampRebound":7800,"beamDampReboundFast":2600,"beamDampVelocitySplit":0.15,"dampCutoffHz":500}],
+          //soft bump stop
+          {"beamSpring":0,"beamDamp":0},
+          {"beamLimitSpring":31000,"beamLimitDamp":2000},
+          ["fh1r","fs1r", {"longBoundRange":0.08,"shortBoundRange":0.035,"boundZone":0.05,"beamLimitDampRebound":0,"dampCutoffHz":500}],
+          ["fh1l","fs1l", {"longBoundRange":0.08,"shortBoundRange":0.035,"boundZone":0.05,"beamLimitDampRebound":0,"dampCutoffHz":500}],
+          //hard bump stop
+          {"beamSpring":0,"beamDamp":0},
+          {"beamLimitSpring":201000,"beamLimitDamp":10000},
+          ["fh1r","fs1r", {"longBoundRange":0.08,"shortBoundRange":0.05,"boundZone":0.025,"beamLimitDampRebound":0,"dampCutoffHz":500}],
+          ["fh1l","fs1l", {"longBoundRange":0.08,"shortBoundRange":0.05,"boundZone":0.025,"beamLimitDampRebound":0,"dampCutoffHz":500}],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+},
+"sbr_coilover_R_adaptive": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"S2R Adaptive Rear Coilovers",
+        "value":2000,
+    },
+    "slotType" : "sbr_coilover_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_coilover_RR", ["sbr_coilover_RR","sbr_coilover_R"]],
+         ["sbr_coilover_RL", ["sbr_coilover_RL","sbr_coilover_R"]],
+    ],
+    "controller": [
+        ["fileName"],
+        ["drivingDynamics/actuators/adaptiveDampers" {"name":"adaptiveRearDamper", "dampBeamNames":["shock_RR", "shock_RL"]}]
+    ],
+    "adaptiveRearDamper": {
+        "modes": [
+            ["name",    "beamDampCoef", "beamDampFastCoef", "beamDampReboundCoef", "beamDampReboundFastCoef","beamDampVelocitySplitCoef"]
+            ["soft",    0.7,            1,                  0.65,                  1,                        0.7]
+            ["regular", 1,              1,                  1,                     1,                        1]
+            ["hard",    1.5,            1,                  1.4,                   1,                        1.2]
+        ]
+    }
+    "beams": [
+          ["id1:", "id2:"],
+          //rear springs - doubled
+          {"beamPrecompression":1.058, "beamType":"|NORMAL"},
+          {"beamDeform":25000,"beamStrength":200000},
+          {"beamSpring":175000,"beamDamp":0},
+          ["psh7r","psh5r", {"soundFile":"event:>Vehicle>Suspension>car_modn_med_01>spring_compress_01","colorFactor":0.9,"attackFactor":10,"volumeFactor":2.1,"decayFactor":7,"noiseFactor":0.01,"pitchFactor":0.4,"maxStress":3100}],
+          ["psh7l","psh5l"],
+          ["psh7r","psh6r"],
+          ["psh7l","psh6l", {"soundFile":"event:>Vehicle>Suspension>car_modn_med_01>spring_compress_01","colorFactor":0.9,"attackFactor":10,"volumeFactor":2.1,"decayFactor":7,"noiseFactor":0.01,"pitchFactor":0.4,"maxStress":3100}],
+          //damper
+          {"beamPrecompression":1, "beamType":"|BOUNDED", "beamLongBound":1, "beamShortBound":1},
+          {"beamSpring":0,"beamDamp":6200},
+          {"beamLimitSpring":0,"beamLimitDamp":0},
+          ["rh2r","r1rr", {"name":"shock_RR","beamDampFast":2067,"beamDampRebound":10000,"beamDampReboundFast":3333,"beamDampVelocitySplit":0.18,"dampCutoffHz":500}],
+          ["rh2l","r1ll", {"name":"shock_RL","beamDampFast":2067,"beamDampRebound":10000,"beamDampReboundFast":3333,"beamDampVelocitySplit":0.18,"dampCutoffHz":500}],
+          //soft bumpstop
+          {"beamDeform":14000,"beamStrength":150000},
+          {"beamSpring":0,"beamDamp":0},
+          {"beamLimitSpring":41000,"beamLimitDamp":1000},
+          ["rh2r","r1rr", {"longBoundRange":0.08,"shortBoundRange":0.04,"boundZone":0.06,"beamLimitDampRebound":0,"dampCutoffHz":500}],
+          ["rh2l","r1ll", {"longBoundRange":0.08,"shortBoundRange":0.04,"boundZone":0.06,"beamLimitDampRebound":0,"dampCutoffHz":500}],
+          //hard bumpstop
+          {"beamSpring":0,"beamDamp":0},
+          {"beamLimitSpring":181000,"beamLimitDamp":6000},
+          ["rh2r","r1rr", {"longBoundRange":0.08,"shortBoundRange":0.065,"boundZone":0.04,"beamLimitDampRebound":0,"dampCutoffHz":500}],
+          ["rh2l","r1ll", {"longBoundRange":0.08,"shortBoundRange":0.065,"boundZone":0.04,"beamLimitDampRebound":0,"dampCutoffHz":500}],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+},
+"sbr_swaybar_F_adaptive": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"S2R Adaptive Front Sway Bar",
+        "value":2100,
+    },
+    "slotType" : "sbr_swaybar_F",
+    "controller": [
+        ["fileName"],
+        ["drivingDynamics/actuators/adaptiveTorsionBars" {"name":"adaptiveFrontSwayBar", "torsionBarNames":["torsionBarFront"]}]
+    ],
+    "adaptiveFrontSwayBar": {
+        "modes": [
+            ["name",    "springCoef", "dampCoef"]
+            ["regular", 1,            1]
+            ["hard",    1.548,        1] //29mm
+        ]
+    }
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_swaybar_F", ["sbr_lowerarm_F","sbr_lowermounts_a_F","sbr_lowermounts_b_F","sbr_uppermounts_F"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //anti-roll
+         {"nodeMaterial":"|NM_METAL"},
+         {"frictionCoef":0.5},
+         {"group":""},
+         {"selfCollision":false},
+         {"collision":true},
+         {"nodeWeight":1.8},
+         //front anti-roll
+         ["arbfr", -0.55, -1.33, 0.18],
+         ["arbfl", 0.55, -1.33, 0.18],
+         {"group":""},
+    ],
+    "torsionbars": [
+        ["id1:", "id2:", "id3:", "id4:"],
+        //23mm 1933
+        //24mm 2292
+        //25mm 2699
+        //26mm 3157
+        //27mm 3762
+        //28mm 4246
+        //29mm 4886
+        //30mm 5596
+        //31mm 6380
+        //32mm 7244
+        {"spring":3157, "damp":10, "deform":10000, "strength":9999999},
+        ["arbfr", "fx2r", "fx2l", "arbfl", {"name": "torsionBarFront"}],
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //--ANTI-ROLL--
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+          {"beamSpring":2501000,"beamDamp":100},
+          {"beamDeform":15000,"beamStrength":312000},
+          //end links
+          ["arbfr","fh2r"],
+          ["arbfl","fh2l"],
+          //rigids
+          ["arbfr","fx2r"],
+          ["arbfl","fx2l"],
+          ["arbfr","fx2l"],
+          ["arbfl","fx2r"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+},
+"sbr_swaybar_R_adaptive": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"S2R Adaptive Rear Sway Bar",
+        "value":1000,
+    },
+    "slotType" : "sbr_swaybar_R",
+
+    "controller": [
+        ["fileName"],
+        ["drivingDynamics/actuators/adaptiveTorsionBars" {"name":"adaptiveRearSwayBar", "torsionBarNames":["torsionBarRear"]}]
+    ],
+    "adaptiveRearSwayBar": {
+        "modes": [
+            ["name",    "springCoef", "dampCoef"]
+            ["regular", 1,        1]
+            ["hard",    1.492,    1] //21mm
+        ]
+    }
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["sbr_swaybar_R", ["sbr_shockbottom_R", "sbr_uppermounts_R", "sbr_lowermounts_R", "sbr_lowerarm_R_a","sbr_lowerarm_R_b"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         //anti-roll
+         {"nodeMaterial":"|NM_METAL"},
+         {"frictionCoef":0.5},
+         {"group":""},
+         {"selfCollision":false},
+         {"collision":true},
+         {"nodeWeight":2},
+         //rear anti-roll
+         ["arbrr", -0.69, 1.225, 0.21],
+         ["arbrl", 0.69, 1.225, 0.21],
+         {"group":""},
+    ],
+    "torsionbars": [
+        ["id1:", "id2:", "id3:", "id4:"],
+        //17mm 1822
+        //18mm 2290
+        //19mm 2843
+        //20mm 3491
+        //21mm 4243
+        //22mm 5110
+        //23mm 6105
+        //24mm 7238
+        {"spring":4243, "damp":10, "deform":10000, "strength":9999999},
+        ["arbrr", "f4r", "f4l", "arbrl", {"name": "torsionBarRear"}],
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          //--ANTI-ROLL--
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+          {"beamSpring":2501000,"beamDamp":100},
+          {"beamDeform":15000,"beamStrength":312000},
+          //end links
+          ["arbrr","rh3r"],
+          ["arbrl","rh3l"],
+          //rigids
+          ["arbrr","f4r"],
+          ["arbrl","f4l"],
+          ["arbrr","f4l"],
+          ["arbrl","f4r"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+},
+}
